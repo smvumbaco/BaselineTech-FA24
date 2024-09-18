@@ -1,5 +1,35 @@
 (kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 801abaa3-ba95-40dc-bdff-17f707e8723c)
+
   (paper "A4")
-  (lib_symbols)
-  (symbol_instances)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 86.36 78.74) (size 45.72 40.64) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 44c3d5ef-6e03-4fca-951b-9ee78a99fce7)
+    (property "Sheetname" "Power Sheet" (at 86.36 78.0284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 86.36 119.9646 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "Frequency" output (at 86.36 97.79 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid c8931cbf-745d-4c91-ab37-c8059dacf44f)
+    )
+    (instances
+      (project "BaseLineTech"
+        (path "/801abaa3-ba95-40dc-bdff-17f707e8723c" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )
