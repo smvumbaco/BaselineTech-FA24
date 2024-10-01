@@ -393,7 +393,7 @@
     ],
     [
       "b5018713-9dac-4933-acc6-88fa6ef21dcb",
-      "microcontroller"
+      "Microcontroller"
     ],
     [
       "68201867-5890-4998-aaba-53bdb901d337",
@@ -406,6 +406,10 @@
     [
       "15451660-bad9-4e79-85d3-2d59df8c5ccd",
       "Load Cell"
+    ],
+    [
+      "83d2619d-438a-45a6-9609-f1b511caf8bd",
+      "Rotary Encoder"
     ]
   ],
   "text_variables": {}
