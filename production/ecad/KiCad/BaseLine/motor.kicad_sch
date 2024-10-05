@@ -5,6 +5,168 @@
 	(uuid "66b65a8a-d226-4ce6-b29c-0b82ed949c13")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Connector:Conn_01x02_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Socket"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Socket_1_1"
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "DRV8830DGQR:DRV8830DGQR"
 			(pin_names
 				(offset 1.016)
@@ -576,190 +738,6 @@
 				)
 			)
 		)
-		(symbol "Motor:Motor_DC"
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "M"
-				(at 2.54 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Motor_DC"
-				(at 2.54 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "DC Motor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "DC Motor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "PinHeader*P2.54mm* TerminalBlock*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Motor_DC_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -3.302) (xy -1.27 0.508) (xy 0 -2.032) (xy 1.27 0.508) (xy 1.27 -3.302)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Motor_DC_0_1"
-				(circle
-					(center 0 -1.524)
-					(radius 3.2512)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -7.62) (xy 0 -7.112)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -4.7752) (xy 0 -5.1816)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.7272) (xy 0 2.0828)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.032) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Motor_DC_1_1"
-				(pin passive line
-					(at 0 5.08 270)
-					(length 2.54)
-					(name "+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -7.62 90)
-					(length 2.54)
-					(name "-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers hide)
@@ -1021,13 +999,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 109.22) (xy 118.11 109.22)
+			(xy 168.91 100.33) (xy 173.99 100.33)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "31afdb89-0770-47dd-a487-b761b56acb69")
+		(uuid "2b8a61ca-b469-4d7d-8732-7379d6b38e34")
 	)
 	(wire
 		(pts
@@ -1041,13 +1019,13 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 102.87) (xy 104.14 102.87)
+			(xy 153.67 102.87) (xy 153.67 96.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3d022314-e618-437a-a6f4-a3026384cba0")
+		(uuid "490f0198-250b-46f2-a3c5-b2710393f8ee")
 	)
 	(wire
 		(pts
@@ -1101,26 +1079,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 96.52) (xy 153.67 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "85a3c559-8467-4ae5-80c2-c937960a6ddb")
-	)
-	(wire
-		(pts
-			(xy 83.82 104.14) (xy 83.82 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e29b426-5e37-4ecf-8853-a49864c6e1c0")
-	)
-	(wire
-		(pts
 			(xy 29.21 152.4) (xy 26.67 152.4)
 		)
 		(stroke
@@ -1131,16 +1089,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 110.49) (xy 80.01 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d75fc54-675a-4481-ae11-207508c63806")
-	)
-	(wire
-		(pts
 			(xy 153.67 72.39) (xy 153.67 86.36)
 		)
 		(stroke
@@ -1148,6 +1096,16 @@
 			(type default)
 		)
 		(uuid "a9b64650-c2c0-4835-9575-5de85a145cf0")
+	)
+	(wire
+		(pts
+			(xy 168.91 93.98) (xy 168.91 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad4c9198-cbd3-4ca8-8683-0c5b45e3e533")
 	)
 	(wire
 		(pts
@@ -1191,7 +1149,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 104.14) (xy 83.82 104.14)
+			(xy 62.23 102.87) (xy 104.14 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1241,7 +1199,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 110.49) (xy 80.01 110.49)
+			(xy 62.23 109.22) (xy 118.11 109.22)
 		)
 		(stroke
 			(width 0)
@@ -1261,16 +1219,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 106.68) (xy 168.91 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f833f395-b8f2-462a-b96b-b4def007f421")
-	)
-	(wire
-		(pts
 			(xy 69.85 157.48) (xy 69.85 161.29)
 		)
 		(stroke
@@ -1278,6 +1226,16 @@
 			(type default)
 		)
 		(uuid "f8dd214c-99ff-4568-91e3-3e9001fce347")
+	)
+	(wire
+		(pts
+			(xy 153.67 102.87) (xy 173.99 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd32fe95-ea48-49c5-93cf-b209fccd16c3")
 	)
 	(wire
 		(pts
@@ -2834,7 +2792,7 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 62.23 110.49 180)
+		(at 62.23 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2844,7 +2802,7 @@
 		)
 		(uuid "9eedd1c8-d383-4893-b5ba-0d6853045a94")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.5654 110.49 0)
+			(at 54.5654 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2856,7 +2814,7 @@
 	)
 	(global_label "SCL"
 		(shape bidirectional)
-		(at 62.23 104.14 180)
+		(at 62.23 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2866,7 +2824,7 @@
 		)
 		(uuid "f9d27d57-f273-4c9e-93b0-b5fc54b67042")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 54.6259 104.14 0)
+			(at 54.6259 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3571,6 +3529,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 179.07 100.33 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a2a7876d-01cb-4de2-97bb-77fe755c56fd")
+		(property "Reference" "J5"
+			(at 180.34 100.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VJQ24-35K270B"
+			(at 180.34 102.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 179.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 179.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 179.07 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2a28326e-6761-45dc-b6b1-2a4d9cbcb02d")
+		)
+		(pin "1"
+			(uuid "72de4d5b-1f78-4fa1-a1f8-743126b7cacf")
+		)
+		(instances
+			(project "BaseLine"
+				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/32bcaf69-2ff4-46a9-8a42-fce7269397e2"
+					(reference "J5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 158.75 76.2 0)
 		(unit 1)
@@ -3766,76 +3794,6 @@
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/32bcaf69-2ff4-46a9-8a42-fce7269397e2"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Motor:Motor_DC")
-		(at 168.91 99.06 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "da5b302e-789a-421e-ab93-c7dc2e16991d")
-		(property "Reference" "M1"
-			(at 173.99 100.3299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "VJQ24-35K270B"
-			(at 173.99 102.8699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 168.91 101.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/vybronics-inc/VJQ24-35K270B/7732324"
-			(at 168.91 101.346 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "DC Motor"
-			(at 168.91 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a285dd6a-e639-47de-97b9-92a0546848fb")
-		)
-		(pin "1"
-			(uuid "d91ae099-ae8f-40f6-a88c-725134d107fa")
-		)
-		(instances
-			(project "BaseLine"
-				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/32bcaf69-2ff4-46a9-8a42-fce7269397e2"
-					(reference "M1")
 					(unit 1)
 				)
 			)
