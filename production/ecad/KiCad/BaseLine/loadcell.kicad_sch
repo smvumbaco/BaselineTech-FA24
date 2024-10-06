@@ -5843,7 +5843,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "LoadCell Connector"
+		(property "Value" "FX1901-0001-0200-L"
 			(at 66.04 88.8999 0)
 			(effects
 				(font
@@ -5861,7 +5861,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/te-connectivity-measurement-specialties/FX1901-0001-0200-L/5277314"
 			(at 67.31 86.36 0)
 			(effects
 				(font

@@ -3382,10 +3382,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "f2c574d8-4876-44f4-acd4-2fc3ae9bc05a")
+			(uuid "f2c574d8-4876-44f4-acd4-2fc3ae9bc05b")
 		)
 		(pin "2"
-			(uuid "581fdf2c-242e-43bc-b71e-899ba9d1f107")
+			(uuid "581fdf2c-242e-43bc-b71e-899ba9d1f108")
 		)
 		(instances
 			(project "BaseLine"
