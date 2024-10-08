@@ -3547,7 +3547,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "VJQ24-35K270B"
+		(property "Value" "VibeMotorConnector"
 			(at 180.34 102.8699 0)
 			(effects
 				(font
@@ -3565,7 +3565,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.digikey.com/en/products/detail/vybronics-inc/VJQ24-35K270B/7732324?s=N4IgTCBcDaIGoCkCKYAsBaAzAVgNJgHYAGAIRAF0BfIA"
 			(at 179.07 100.33 0)
 			(effects
 				(font
@@ -3574,7 +3574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "VJQ24-35K270B"
 			(at 179.07 100.33 0)
 			(effects
 				(font
