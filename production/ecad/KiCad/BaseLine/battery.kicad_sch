@@ -3006,9 +3006,29 @@
 		)
 		(uuid "fe62e1ba-e904-462f-a1dc-8eee3cb19f7b")
 	)
-	(text "Boost Converter\n"
+	(text "Consider changing to BattOut or something?"
 		(exclude_from_sim no)
-		(at 180.34 128.778 0)
+		(at 165.1 74.422 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "318537fa-8d90-4dc8-ac27-fdcad96d7a00")
+	)
+	(text "LDO from battery voltage (3.7v) to 3.3v"
+		(exclude_from_sim no)
+		(at 78.232 34.036 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c958aba7-2ba0-4f3e-867b-000283c30df7")
+	)
+	(text "Battery to 5V Boost Converter\n"
+		(exclude_from_sim no)
+		(at 190.754 130.048 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3016,9 +3036,9 @@
 		)
 		(uuid "d123b3c1-936d-4591-938b-88007c0f107c")
 	)
-	(text "Connectors to USB charger"
+	(text "Connector to Adafruit USB charger"
 		(exclude_from_sim no)
-		(at 209.296 21.844 0)
+		(at 190.246 29.972 0)
 		(effects
 			(font
 				(size 1.27 1.27)

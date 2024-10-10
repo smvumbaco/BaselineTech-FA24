@@ -3605,6 +3605,26 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 60.96) (xy 88.9 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a173e036-39bf-45b0-8d52-3349d818d308")
+	)
+	(wire
+		(pts
+			(xy 82.55 50.8) (xy 85.09 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5b16e26-d743-4a89-ad8e-115b895c77eb")
+	)
+	(wire
+		(pts
 			(xy 247.65 99.06) (xy 247.65 101.6)
 		)
 		(stroke
@@ -3837,6 +3857,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 63.5) (xy 88.9 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f801e8e5-e912-4b44-88ac-4012658b8d18")
+	)
+	(wire
+		(pts
 			(xy 40.64 139.7) (xy 40.64 142.24)
 		)
 		(stroke
@@ -4065,6 +4095,28 @@
 			)
 		)
 	)
+	(global_label "Encoder_DO"
+		(shape input)
+		(at 85.09 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6b514945-1a9b-467c-a863-9150cf7a4b9c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.2027 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "IO0"
 		(shape output)
 		(at 82.55 48.26 0)
@@ -4109,6 +4161,28 @@
 			)
 		)
 	)
+	(global_label "SDA"
+		(shape input)
+		(at 88.9 60.96 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "91f683af-7100-47da-a26d-e0293a658f26")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.4533 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART_TXD"
 		(shape output)
 		(at 264.16 66.04 0)
@@ -4144,6 +4218,28 @@
 		(uuid "a4ddc465-ab42-44f9-928d-486488a42aa5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 89.2847 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCL"
+		(shape input)
+		(at 88.9 63.5 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a4fac45d-d8c8-4882-ad67-a84e959984e5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 95.3928 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
