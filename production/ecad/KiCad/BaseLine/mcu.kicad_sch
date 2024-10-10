@@ -3235,6 +3235,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 55.88) (xy 85.09 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "194f171c-a390-4ee4-b2be-c41dc850828d")
+	)
+	(wire
+		(pts
 			(xy 243.84 73.66) (xy 243.84 76.2)
 		)
 		(stroke
@@ -3382,6 +3392,16 @@
 			(type default)
 		)
 		(uuid "4a560f81-de24-4d86-b98f-692fad8b9183")
+	)
+	(wire
+		(pts
+			(xy 82.55 53.34) (xy 85.09 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e4b89d5-6477-4b9f-a9ca-78b3e7991fd0")
 	)
 	(wire
 		(pts
@@ -4095,6 +4115,28 @@
 			)
 		)
 	)
+	(global_label "CLK_encoder"
+		(shape input)
+		(at 85.09 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5f67165e-34e9-49d7-bafc-a7cc7b2a8c90")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.1099 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Encoder_DO"
 		(shape input)
 		(at 85.09 50.8 0)
@@ -4355,6 +4397,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CS_encoder"
+		(shape input)
+		(at 85.09 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d7efd952-2538-4187-97c1-f4f294e1c89a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 99.0213 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
