@@ -3235,16 +3235,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 55.88) (xy 85.09 55.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "194f171c-a390-4ee4-b2be-c41dc850828d")
-	)
-	(wire
-		(pts
 			(xy 243.84 73.66) (xy 243.84 76.2)
 		)
 		(stroke
@@ -3272,6 +3262,16 @@
 			(type default)
 		)
 		(uuid "23239c82-7a09-4b6b-8c5d-9a23275d4b9e")
+	)
+	(wire
+		(pts
+			(xy 82.55 71.12) (xy 85.09 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "237ba422-1ce0-433b-b700-caf3598b0610")
 	)
 	(wire
 		(pts
@@ -3365,6 +3365,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 76.2) (xy 85.09 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3b51152c-e1b2-493d-a6cb-0b254f6810ee")
+	)
+	(wire
+		(pts
 			(xy 77.47 166.37) (xy 83.82 166.37)
 		)
 		(stroke
@@ -3392,16 +3402,6 @@
 			(type default)
 		)
 		(uuid "4a560f81-de24-4d86-b98f-692fad8b9183")
-	)
-	(wire
-		(pts
-			(xy 82.55 53.34) (xy 85.09 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e4b89d5-6477-4b9f-a9ca-78b3e7991fd0")
 	)
 	(wire
 		(pts
@@ -3635,16 +3635,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 50.8) (xy 85.09 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5b16e26-d743-4a89-ad8e-115b895c77eb")
-	)
-	(wire
-		(pts
 			(xy 247.65 99.06) (xy 247.65 101.6)
 		)
 		(stroke
@@ -3652,6 +3642,16 @@
 			(type default)
 		)
 		(uuid "a6c153cc-5ae6-41a2-ab34-1b74321122eb")
+	)
+	(wire
+		(pts
+			(xy 82.55 55.88) (xy 85.09 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a77828a6-c8c3-45c4-96ac-fbfcedd0611b")
 	)
 	(wire
 		(pts
@@ -3845,6 +3845,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 73.66) (xy 85.09 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7f7971d-2ad0-4f63-94a2-6a8ef2d88766")
+	)
+	(wire
+		(pts
 			(xy 241.3 34.29) (xy 241.3 45.72)
 		)
 		(stroke
@@ -3906,6 +3916,16 @@
 		)
 		(uuid "fa73b05f-45c3-46f3-b949-b44b20d1c83a")
 	)
+	(text "This has a datasheet for another option for a reset button"
+		(exclude_from_sim no)
+		(at 71.12 140.208 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "148eeb99-2e16-4f77-923b-1bc9f015213b")
+	)
 	(text "Reset Button\n"
 		(exclude_from_sim no)
 		(at 35.052 129.032 0)
@@ -3916,6 +3936,16 @@
 			)
 		)
 		(uuid "4eba2baf-5f77-4d9b-9562-96e7efa69954")
+	)
+	(text "This if we want an external push button and put the footprint here"
+		(exclude_from_sim no)
+		(at 54.864 186.944 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5c0de89b-6984-4d92-8870-213526992e6d")
 	)
 	(text "USB-to-UART"
 		(exclude_from_sim no)
@@ -4117,7 +4147,7 @@
 	)
 	(global_label "CLK_encoder"
 		(shape input)
-		(at 85.09 53.34 0)
+		(at 85.09 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4127,7 +4157,7 @@
 		)
 		(uuid "5f67165e-34e9-49d7-bafc-a7cc7b2a8c90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 100.1099 53.34 0)
+			(at 100.1099 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4139,7 +4169,7 @@
 	)
 	(global_label "Encoder_DO"
 		(shape input)
-		(at 85.09 50.8 0)
+		(at 85.09 73.66 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4149,7 +4179,7 @@
 		)
 		(uuid "6b514945-1a9b-467c-a863-9150cf7a4b9c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.2027 50.8 0)
+			(at 99.2027 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,6 +4321,28 @@
 			)
 		)
 	)
+	(global_label "VSPICSO"
+		(shape input)
+		(at 85.09 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "ad3411e4-f851-487c-a858-353794ca0d62")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 96.0581 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART_TXD"
 		(shape input)
 		(at 41.91 68.58 180)
@@ -4403,7 +4455,7 @@
 	)
 	(global_label "CS_encoder"
 		(shape input)
-		(at 85.09 55.88 0)
+		(at 85.09 71.12 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4413,7 +4465,7 @@
 		)
 		(uuid "d7efd952-2538-4187-97c1-f4f294e1c89a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 99.0213 55.88 0)
+			(at 99.0213 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
