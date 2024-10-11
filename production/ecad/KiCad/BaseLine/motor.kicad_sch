@@ -999,7 +999,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 100.33) (xy 173.99 100.33)
+			(xy 168.91 100.33) (xy 199.39 100.33)
 		)
 		(stroke
 			(width 0)
@@ -1229,7 +1229,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 102.87) (xy 173.99 102.87)
+			(xy 153.67 102.87) (xy 199.39 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3530,7 +3530,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 179.07 100.33 0)
+		(at 204.47 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3539,7 +3539,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2a7876d-01cb-4de2-97bb-77fe755c56fd")
 		(property "Reference" "J5"
-			(at 180.34 100.3299 0)
+			(at 205.74 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3548,7 +3548,7 @@
 			)
 		)
 		(property "Value" "VibeMotorConnector"
-			(at 180.34 102.8699 0)
+			(at 205.74 102.8699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3557,7 +3557,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 100.33 0)
+			(at 204.47 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3566,7 +3566,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.com/en/products/detail/vybronics-inc/VJQ24-35K270B/7732324?s=N4IgTCBcDaIGoCkCKYAsBaAzAVgNJgHYAGAIRAF0BfIA"
-			(at 179.07 100.33 0)
+			(at 204.47 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3575,7 +3575,7 @@
 			)
 		)
 		(property "Description" "VJQ24-35K270B"
-			(at 179.07 100.33 0)
+			(at 204.47 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
