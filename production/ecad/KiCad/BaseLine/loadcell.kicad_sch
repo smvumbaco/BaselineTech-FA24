@@ -3980,7 +3980,7 @@
 		)
 		(uuid "a4509026-b8c2-458c-b0c2-c03c1b316967")
 	)
-	(text_box "To-Do: \n\nFind the needed resistor and capacitor values\n\nHow do you connect to ESP32?\n"
+	(text_box "To-Do: \n\nFind the needed resistor and capacitor values for active low-pass filter\n\n"
 		(exclude_from_sim no)
 		(at 240.03 21.59 0)
 		(size 43.18 40.64)
@@ -4087,8 +4087,8 @@
 		)
 		(uuid "cbb089b0-4d05-457e-8e9a-5f71c7577e03")
 	)
-	(global_label "DOUT"
-		(shape input)
+	(global_label "MISO"
+		(shape output)
 		(at 165.1 81.28 0)
 		(fields_autoplaced yes)
 		(effects
@@ -4099,7 +4099,7 @@
 		)
 		(uuid "28aa03a9-4574-4758-9bbe-ec428215015c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.9838 81.28 0)
+			(at 172.6814 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4109,7 +4109,7 @@
 			)
 		)
 	)
-	(global_label "SCLK"
+	(global_label "CLK"
 		(shape input)
 		(at 165.1 83.82 0)
 		(fields_autoplaced yes)
@@ -4121,7 +4121,7 @@
 		)
 		(uuid "5626880f-b253-4581-9cf3-f1ffd38ee9e2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.8628 83.82 0)
+			(at 171.6533 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)

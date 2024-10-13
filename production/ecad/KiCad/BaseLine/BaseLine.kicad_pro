@@ -410,6 +410,10 @@
     [
       "83d2619d-438a-45a6-9609-f1b511caf8bd",
       "Rotary Encoder"
+    ],
+    [
+      "e3080f39-1d26-4bce-b471-534f477eeea5",
+      "IO"
     ]
   ],
   "text_variables": {}

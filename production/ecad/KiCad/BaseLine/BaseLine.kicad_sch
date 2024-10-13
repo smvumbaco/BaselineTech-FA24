@@ -233,6 +233,44 @@
 			)
 		)
 	)
+	(sheet
+		(at 39.37 152.4)
+		(size 50.8 39.37)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e3080f39-1d26-4bce-b471-534f477eeea5")
+		(property "Sheetname" "IO"
+			(at 39.37 151.6884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IO.kicad_sch"
+			(at 39.37 192.3546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "BaseLine"
+				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20"
+					(page "8")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
