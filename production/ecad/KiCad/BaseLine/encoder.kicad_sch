@@ -1686,16 +1686,6 @@
 		)
 		(uuid "fb9d7fcf-282b-43bf-8841-1fac72f7a056")
 	)
-	(text "connector type?"
-		(exclude_from_sim no)
-		(at 157.226 70.358 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "42c786a6-31e6-4ff8-8818-6c9e74b318bb")
-	)
 	(text "bi-directional level shifter"
 		(exclude_from_sim no)
 		(at 86.614 83.82 0)
@@ -2135,7 +2125,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_B6B-EH-A_1x06_P2.50mm_Vertical"
 			(at 144.78 60.96 0)
 			(effects
 				(font
