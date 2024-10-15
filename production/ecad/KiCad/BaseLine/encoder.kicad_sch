@@ -2047,7 +2047,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d518feb-a44d-4e6f-91a0-7f033f82dcc9")
-		(property "Reference" "R37"
+		(property "Reference" "R40"
 			(at 67.31 76.1999 0)
 			(effects
 				(font
@@ -2101,7 +2101,7 @@
 		(instances
 			(project ""
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/83d2619d-438a-45a6-9609-f1b511caf8bd"
-					(reference "R37")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -2595,7 +2595,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8d45295d-4b93-4df9-bd6a-86a0da5a0bab")
-		(property "Reference" "R36"
+		(property "Reference" "R39"
 			(at 47.244 73.406 90)
 			(effects
 				(font
@@ -2647,7 +2647,7 @@
 		(instances
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/83d2619d-438a-45a6-9609-f1b511caf8bd"
-					(reference "R36")
+					(reference "R39")
 					(unit 1)
 				)
 			)
