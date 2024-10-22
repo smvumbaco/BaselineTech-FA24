@@ -9196,10 +9196,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "cb8390f3-92af-4e87-8d10-5c93bf8f97e2")
+			(uuid "cb8390f3-92af-4e87-8d10-5c93bf8f97e3")
 		)
 		(pin "2"
-			(uuid "43e39f09-6be3-4498-bfd5-2f9319f49867")
+			(uuid "43e39f09-6be3-4498-bfd5-2f9319f49868")
 		)
 		(instances
 			(project ""
