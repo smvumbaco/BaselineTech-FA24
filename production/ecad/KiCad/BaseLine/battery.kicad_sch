@@ -7933,8 +7933,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 38.1 48.7679 0)
+		(property "Value" "+3.7V"
+			(at 37.338 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9622,8 +9622,8 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f3f578f3-ac23-4bd3-b43b-8c41a32dcf34")
-		(property "Reference" "TP12"
-			(at 120.904 38.1 0)
+		(property "Reference" "+3.3V"
+			(at 120.396 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9673,7 +9673,7 @@
 		(instances
 			(project ""
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/31f727a4-3278-43bf-88f9-c0e8e93f0a52"
-					(reference "TP12")
+					(reference "+3.3V")
 					(unit 1)
 				)
 			)

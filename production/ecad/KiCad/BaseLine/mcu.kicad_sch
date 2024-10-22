@@ -4027,6 +4027,12 @@
 		(uuid "5f823665-b901-4c15-b1b0-7b022a4b950a")
 	)
 	(junction
+		(at 139.7 172.72)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "71efa6db-6b35-4b63-9035-92de67d50fba")
+	)
+	(junction
 		(at 247.65 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4849,16 +4855,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 172.72) (xy 156.21 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "66430087-8de2-4aaa-8e40-b42fc495560d")
-	)
-	(wire
-		(pts
 			(xy 88.9 53.34) (xy 82.55 53.34)
 		)
 		(stroke
@@ -4979,7 +4975,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 171.45) (xy 138.43 172.72)
+			(xy 139.7 171.45) (xy 139.7 172.72)
 		)
 		(stroke
 			(width 0)
@@ -5416,6 +5412,26 @@
 			(type default)
 		)
 		(uuid "df120005-f457-470f-946a-6f816e00a683")
+	)
+	(wire
+		(pts
+			(xy 139.7 172.72) (xy 156.21 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e455093d-4d6a-4daf-a55e-7f923221545b")
+	)
+	(wire
+		(pts
+			(xy 139.7 172.72) (xy 138.43 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e583d8c6-7457-43dc-b9b0-91d1955fdb07")
 	)
 	(wire
 		(pts
@@ -6382,7 +6398,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "ID0"
 			(at 95.25 166.8779 0)
 			(effects
 				(font
@@ -7052,7 +7068,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "RESET"
 			(at 187.198 45.974 90)
 			(effects
 				(font
@@ -7723,7 +7739,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "+3.3V"
 			(at 91.44 31.7499 90)
 			(effects
 				(font
@@ -7924,7 +7940,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "GND"
 			(at 92.71 102.8699 90)
 			(effects
 				(font
@@ -8944,7 +8960,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "GND"
 			(at 250.19 97.0279 0)
 			(effects
 				(font
@@ -9405,7 +9421,7 @@
 				)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "VRegIn"
 			(at 178.308 43.18 90)
 			(effects
 				(font
@@ -10446,7 +10462,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 138.43 171.45 0)
+		(at 139.7 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10454,24 +10470,23 @@
 		(dnp no)
 		(uuid "cb07a179-2ef8-409b-b4fa-d96362c2cbd0")
 		(property "Reference" "TP3"
-			(at 140.716 168.148 90)
+			(at 141.986 168.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TestPoint"
-			(at 140.97 168.148 90)
+		(property "Value" "ENABLE"
+			(at 137.668 168.148 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 171.45 0)
+			(at 144.78 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10480,7 +10495,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 143.51 171.45 0)
+			(at 144.78 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10489,7 +10504,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 138.43 171.45 0)
+			(at 139.7 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
