@@ -4258,6 +4258,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 66.04) (xy 186.69 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07998ac2-4a6b-4919-8c1a-1626a034337f")
+	)
+	(wire
+		(pts
 			(xy 241.3 101.6) (xy 247.65 101.6)
 		)
 		(stroke
@@ -4419,6 +4429,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 68.58) (xy 195.58 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "267b6d52-2a80-49eb-b9d3-b5f0a571b2bc")
+	)
+	(wire
+		(pts
 			(xy 86.36 30.48) (xy 86.36 26.67)
 		)
 		(stroke
@@ -4546,6 +4566,16 @@
 			(type default)
 		)
 		(uuid "360c05bc-9ac9-4acc-867c-cfb58ac2e44a")
+	)
+	(wire
+		(pts
+			(xy 191.77 66.04) (xy 195.58 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37c98296-9ad1-44ba-8c38-91d9a16bdbff")
 	)
 	(wire
 		(pts
@@ -5489,6 +5519,16 @@
 		)
 		(uuid "fa28d736-385c-4340-aff4-4b9799040f2e")
 	)
+	(wire
+		(pts
+			(xy 181.61 68.58) (xy 186.69 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa66f9d3-ab5c-4fa4-a88b-66efe3be8f7d")
+	)
 	(polyline
 		(pts
 			(xy 130.81 12.7) (xy 130.81 119.38)
@@ -5687,7 +5727,7 @@
 	)
 	(global_label "USB_D+"
 		(shape input)
-		(at 195.58 66.04 180)
+		(at 181.61 66.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5697,7 +5737,7 @@
 		)
 		(uuid "42862143-5cd9-4541-a1ca-c90dced18be2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.9748 66.04 0)
+			(at 171.0048 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5775,7 +5815,7 @@
 	)
 	(global_label "USB_D-"
 		(shape input)
-		(at 195.58 68.58 180)
+		(at 181.61 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5785,7 +5825,7 @@
 		)
 		(uuid "5593ce4e-fb27-4365-a3c9-4e07e9c63335")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.9748 68.58 0)
+			(at 171.0048 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6929,6 +6969,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 189.23 66.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "32acab51-64d4-44f5-8b43-7025c45583ad")
+		(property "Reference" "R37"
+			(at 189.484 61.722 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 189.484 64.008 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 189.23 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 189.23 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "89f36e02-aa92-4a9e-bef1-f8199ecc967c")
+		)
+		(pin "2"
+			(uuid "712b09aa-1189-4785-a002-ddf11e55ff31")
+		)
+		(instances
+			(project "BaseLine"
+				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/b5018713-9dac-4933-acc6-88fa6ef21dcb"
+					(reference "R37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TestPoint")
 		(at 190.5 48.26 90)
 		(unit 1)
@@ -7123,6 +7230,73 @@
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/b5018713-9dac-4933-acc6-88fa6ef21dcb"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 189.23 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3f8e88f8-a451-4816-bb28-dc75f1281a6a")
+		(property "Reference" "R38"
+			(at 189.484 64.262 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 189.484 66.548 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 189.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 189.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 189.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "819b4307-6654-41a5-8ff3-862825208fea")
+		)
+		(pin "2"
+			(uuid "09b594dc-e35f-4f63-b8b5-5a663d8ef818")
+		)
+		(instances
+			(project "BaseLine"
+				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/b5018713-9dac-4933-acc6-88fa6ef21dcb"
+					(reference "R38")
 					(unit 1)
 				)
 			)
