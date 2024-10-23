@@ -2504,6 +2504,12 @@
 		(uuid "0da655ba-cf3c-469a-bf78-65ddc67941e9")
 	)
 	(junction
+		(at 31.75 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e0c9d4b-be42-43d4-a782-ae9a294fcb6a")
+	)
+	(junction
 		(at 91.44 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2570,16 +2576,16 @@
 		(uuid "5e496afe-b803-4c4f-b934-342ffc2febd8")
 	)
 	(junction
-		(at 190.5 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66c19527-f5db-4a25-b974-bbc25db2c656")
-	)
-	(junction
 		(at 116.84 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8c20bf17-f4f3-4a39-9854-29eeb0073cbb")
+	)
+	(junction
+		(at 190.5 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bbb8fbf2-c66d-41e5-8acc-be37231e4a31")
 	)
 	(junction
 		(at 165.1 109.22)
@@ -2738,6 +2744,16 @@
 			(type default)
 		)
 		(uuid "3ecb04c9-7cdd-4d67-8c06-fedd17ddf680")
+	)
+	(wire
+		(pts
+			(xy 31.75 142.24) (xy 31.75 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "413fc4cd-91e4-408e-8755-b572270a5008")
 	)
 	(wire
 		(pts
@@ -2931,6 +2947,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 194.31) (xy 31.75 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69413e8d-ccdb-4354-8392-ea8583228b7d")
+	)
+	(wire
+		(pts
 			(xy 118.11 147.32) (xy 118.11 156.21)
 		)
 		(stroke
@@ -3021,7 +3047,7 @@
 	)
 	(wire
 		(pts
-			(xy 30.48 142.24) (xy 33.02 142.24)
+			(xy 30.48 142.24) (xy 31.75 142.24)
 		)
 		(stroke
 			(width 0)
@@ -3118,6 +3144,16 @@
 			(type default)
 		)
 		(uuid "934c45e3-7b67-442c-a7e7-a10414fb588d")
+	)
+	(wire
+		(pts
+			(xy 63.5 194.31) (xy 31.75 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96ffe30f-ee31-4991-bf95-df0b4c82fc1e")
 	)
 	(wire
 		(pts
@@ -3221,6 +3257,16 @@
 	)
 	(wire
 		(pts
+			(xy 71.12 165.1) (xy 119.38 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a83d1959-7b80-477e-ae9d-a16ada071f06")
+	)
+	(wire
+		(pts
 			(xy 252.73 93.98) (xy 256.54 93.98)
 		)
 		(stroke
@@ -3258,6 +3304,16 @@
 			(type default)
 		)
 		(uuid "aefb22bb-7261-41cf-82b8-cc995f461e26")
+	)
+	(wire
+		(pts
+			(xy 31.75 165.1) (xy 63.5 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1960522-ad3b-4e55-8153-b56fe2ebda8a")
 	)
 	(wire
 		(pts
@@ -3561,6 +3617,36 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 194.31) (xy 118.11 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f04f9577-5051-4f4a-8b85-ed7b7488be9a")
+	)
+	(wire
+		(pts
+			(xy 119.38 165.1) (xy 119.38 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f253aa57-1b24-459a-85b2-829b46db5232")
+	)
+	(wire
+		(pts
+			(xy 71.12 194.31) (xy 118.11 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f42c8b38-6067-465a-ae97-33c90fd43473")
+	)
+	(wire
+		(pts
 			(xy 175.26 76.2) (xy 175.26 115.57)
 		)
 		(stroke
@@ -3578,6 +3664,16 @@
 			(type default)
 		)
 		(uuid "f88271b0-52df-4088-b95c-379fefcd16e8")
+	)
+	(wire
+		(pts
+			(xy 31.75 142.24) (xy 33.02 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f943f352-baad-42de-b3a7-17bbf58f6526")
 	)
 	(wire
 		(pts
@@ -6091,6 +6187,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 67.31 165.1 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5d44fe3c-05d4-4223-82b3-03bcb22563b7")
+		(property "Reference" "R52"
+			(at 67.31 163.068 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "DNP"
+			(at 67.31 167.132 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.056 166.116 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 67.31 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "701d1e06-ff6e-497e-84cc-aa2e0a214d72")
+		)
+		(pin "1"
+			(uuid "aced25db-d556-43e0-8c48-8dfed32fcbf0")
+		)
+		(instances
+			(project "BaseLine"
+				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/15451660-bad9-4e79-85d3-2d59df8c5ccd"
+					(reference "R52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "MIC920YC5-TR_1")
 		(lib_id "2024-10-08_01-43-59:MIC920YC5-TR")
 		(at 58.42 142.24 0)
@@ -6583,72 +6746,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 190.5 71.12 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95a294ef-9545-479c-b645-a63c099b71b0")
-		(property "Reference" "#PWR060"
-			(at 190.5 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 190.5 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 190.5 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8fc1a065-2b2a-47c4-92da-0fd7b91d0cc5")
-		)
-		(instances
-			(project "BaseLine"
-				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/15451660-bad9-4e79-85d3-2d59df8c5ccd"
-					(reference "#PWR060")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 190.5 78.74 0)
 		(unit 1)
@@ -7047,6 +7144,71 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
+		(at 190.5 71.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b1e05789-ba85-4e0b-a69b-9551380ba3d8")
+		(property "Reference" "#PWR060"
+			(at 190.5 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 190.5 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 190.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 190.5 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2fc6a074-b235-4100-8ace-efdb71d27ccd")
+		)
+		(instances
+			(project "BaseLine"
+				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/15451660-bad9-4e79-85d3-2d59df8c5ccd"
+					(reference "#PWR060")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
 		(at 113.03 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7106,6 +7268,73 @@
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/15451660-bad9-4e79-85d3-2d59df8c5ccd"
 					(reference "#PWR055")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_US")
+		(at 67.31 194.31 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bbb4866d-99f8-4ef6-b174-e6e79dd19ae0")
+		(property "Reference" "R55"
+			(at 67.31 192.278 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R_US"
+			(at 67.31 196.596 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.056 195.326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 67.31 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, US symbol"
+			(at 67.31 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "701d1e06-ff6e-497e-84cc-aa2e0a214d72")
+		)
+		(pin "1"
+			(uuid "aced25db-d556-43e0-8c48-8dfed32fcbf0")
+		)
+		(instances
+			(project "BaseLine"
+				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/15451660-bad9-4e79-85d3-2d59df8c5ccd"
+					(reference "R55")
 					(unit 1)
 				)
 			)

@@ -111,6 +111,66 @@
 				(justify left top)
 			)
 		)
+		(pin "GND" input
+			(at 88.9 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "24dbf908-f2c5-4294-a70a-074d770ace2e")
+		)
+		(pin "+5V" input
+			(at 88.9 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b03a3a15-7e99-45c8-83f5-26b2a715f068")
+		)
+		(pin "SDA" input
+			(at 38.1 52.07 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e820f0a6-b77a-421f-a059-a4819973bad9")
+		)
+		(pin "SCL" input
+			(at 38.1 60.96 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "6b3785e6-83cd-4f05-bdb9-ca0727308134")
+		)
+		(pin "FAULTn_1" input
+			(at 88.9 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c5dfc280-babf-4047-a0b0-3ffe86009caa")
+		)
+		(pin "FAULTn_2" input
+			(at 88.9 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ea374ec9-52a2-4e22-b1a9-215adbc83671")
+		)
 		(instances
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20"
