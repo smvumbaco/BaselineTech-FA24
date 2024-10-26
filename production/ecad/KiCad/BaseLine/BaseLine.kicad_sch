@@ -73,6 +73,36 @@
 				(justify left top)
 			)
 		)
+		(pin "+3.3V" output
+			(at 142.24 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "e19cad14-7e04-46dd-9f66-b2b89655c4c7")
+		)
+		(pin "GND" output
+			(at 147.32 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f6e78615-ec52-4a68-90cd-5c009b63fb90")
+		)
+		(pin "+5V" output
+			(at 137.16 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c4e836fa-cdca-4313-8b05-c1e693f44074")
+		)
 		(instances
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20"

@@ -4056,6 +4056,16 @@
 	)
 	(wire
 		(pts
+			(xy 22.86 15.24) (xy 21.59 15.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e8956e7-d4e0-4f87-a0b2-b166d7194c6a")
+	)
+	(wire
+		(pts
 			(xy 26.67 148.59) (xy 31.75 148.59)
 		)
 		(stroke
@@ -4203,6 +4213,16 @@
 			(type default)
 		)
 		(uuid "6aa268c5-a3d0-4b5e-b259-abc15e89def2")
+	)
+	(wire
+		(pts
+			(xy 48.26 24.13) (xy 49.53 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ae08225-ace8-4fe6-94f6-13357e174be0")
 	)
 	(wire
 		(pts
@@ -4363,6 +4383,16 @@
 			(type default)
 		)
 		(uuid "8dfb5677-da20-4a99-bfad-fe205d542062")
+	)
+	(wire
+		(pts
+			(xy 33.02 24.13) (xy 34.29 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90d70f55-7d28-4444-995d-dc7ea82e892b")
 	)
 	(wire
 		(pts
@@ -4543,6 +4573,16 @@
 			(type default)
 		)
 		(uuid "a4288605-cb3e-4b7d-9f64-8323b00cde5f")
+	)
+	(wire
+		(pts
+			(xy 48.26 20.32) (xy 48.26 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5c8d820-9ba0-4baa-8dfe-368a23448939")
 	)
 	(wire
 		(pts
@@ -4856,6 +4896,16 @@
 	)
 	(wire
 		(pts
+			(xy 21.59 15.24) (xy 21.59 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dce2706c-cecf-438a-98bc-e3fa639f0533")
+	)
+	(wire
+		(pts
 			(xy 146.05 167.64) (xy 146.05 171.45)
 		)
 		(stroke
@@ -4873,6 +4923,16 @@
 			(type default)
 		)
 		(uuid "e35fe1ae-96a9-406c-9acd-e165ded56be6")
+	)
+	(wire
+		(pts
+			(xy 33.02 20.32) (xy 33.02 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3a0230d-1e8d-4bb6-b5f8-72dff7053321")
 	)
 	(wire
 		(pts
@@ -5353,6 +5413,42 @@
 			)
 		)
 		(uuid "da59a467-69e6-4412-8cc7-966ebe36d2f3")
+	)
+	(hierarchical_label "+5V"
+		(shape output)
+		(at 49.53 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "273618e0-d842-4d38-b278-909419363f9d")
+	)
+	(hierarchical_label "+3.3V"
+		(shape output)
+		(at 34.29 24.13 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d28d8b94-b162-474c-aa46-fc511d019bc2")
+	)
+	(hierarchical_label "GND"
+		(shape output)
+		(at 22.86 15.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e0c42150-bfb2-4feb-bf1d-686cc064c670")
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
@@ -7264,6 +7360,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 33.02 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "749fac23-99f7-44e7-974b-9f7e54399f7e")
+		(property "Reference" "#PWR0101"
+			(at 33.02 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 33.02 16.764 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 33.02 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 33.02 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 33.02 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffad6ae5-8201-4299-8a7e-fa1cafeb06bd")
+		)
+		(instances
+			(project "BaseLine"
+				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/31f727a4-3278-43bf-88f9-c0e8e93f0a52"
+					(reference "#PWR0101")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 152.4 114.3 270)
 		(unit 1)
@@ -7667,6 +7828,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 21.59 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a08f3ea-804c-44a1-9294-1a489deb649f")
+		(property "Reference" "#PWR099"
+			(at 21.59 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 21.59 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 21.59 19.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e91ec38a-01ee-4e93-aad4-3ae2b21a7840")
+		)
+		(instances
+			(project "BaseLine"
+				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/31f727a4-3278-43bf-88f9-c0e8e93f0a52"
+					(reference "#PWR099")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "AP7362-33SP-13:AP7362-33SP-13")
 		(at 57.15 43.18 0)
 		(unit 1)
@@ -7941,6 +8168,72 @@
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/31f727a4-3278-43bf-88f9-c0e8e93f0a52"
 					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 48.26 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8f882d80-4711-411d-88d9-269e6b492a3a")
+		(property "Reference" "#PWR0102"
+			(at 48.26 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 48.26 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 48.26 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23bec4ac-c123-4e87-af92-2da2c2051cff")
+		)
+		(instances
+			(project "BaseLine"
+				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/31f727a4-3278-43bf-88f9-c0e8e93f0a52"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
