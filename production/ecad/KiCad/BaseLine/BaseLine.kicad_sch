@@ -73,6 +73,26 @@
 				(justify left top)
 			)
 		)
+		(pin "+3.3V" input
+			(at 143.51 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "f9bb121b-bc1f-4699-9cd1-b89279feab69")
+		)
+		(pin "+5V" input
+			(at 154.94 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1ed8a3a2-a427-4e31-8961-de1e668d5076")
+		)
 		(instances
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20"
@@ -246,6 +266,66 @@
 				)
 				(justify left top)
 			)
+		)
+		(pin "CLK_rotaryenc" input
+			(at 204.47 104.14 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e2dcd47d-7c94-403b-aeed-1bd2fb9ae6cc")
+		)
+		(pin "DO_rotaryenc" output
+			(at 204.47 110.49 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a0c90edd-d3be-420a-82c6-42ae1b7f37f4")
+		)
+		(pin "CS_rotaryenc" input
+			(at 204.47 116.84 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "97fbfcb6-32a6-4ea1-81a3-7d333e7442de")
+		)
+		(pin "+3.3V" input
+			(at 204.47 123.19 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "9d6fe42e-5f35-471e-af23-8f21b4aff2ca")
+		)
+		(pin "+5V" input
+			(at 204.47 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "beb83b99-5fc8-41b0-b9f2-91c50a3fe664")
+		)
+		(pin "+GND" input
+			(at 204.47 134.62 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "77f5df88-6c8d-4b77-88e3-6d598141e0a2")
 		)
 		(instances
 			(project "BaseLine"
