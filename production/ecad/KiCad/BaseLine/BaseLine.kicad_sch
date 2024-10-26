@@ -142,7 +142,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 62.23 35.56 90)
+			(at 60.96 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -152,7 +152,7 @@
 			(uuid "24dbf908-f2c5-4294-a70a-074d770ace2e")
 		)
 		(pin "+5V" input
-			(at 58.42 35.56 90)
+			(at 55.88 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -200,6 +200,16 @@
 				(justify right)
 			)
 			(uuid "ea374ec9-52a2-4e22-b1a9-215adbc83671")
+		)
+		(pin "+3.3V" input
+			(at 58.42 35.56 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "8a079410-24e4-4ef8-828c-6eede24cc296")
 		)
 		(instances
 			(project "BaseLine"
