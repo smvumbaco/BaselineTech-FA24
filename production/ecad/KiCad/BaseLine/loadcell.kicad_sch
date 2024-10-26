@@ -7290,7 +7290,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "DNP"
 			(at 67.31 196.596 90)
 			(effects
 				(font
