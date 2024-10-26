@@ -1441,7 +1441,7 @@
 			)
 		)
 	)
-	(global_label "ENABLE"
+	(global_label "ENABLE_MUX"
 		(shape input)
 		(at 127 83.82 180)
 		(fields_autoplaced yes)
@@ -1453,7 +1453,7 @@
 		)
 		(uuid "c5e47167-5976-4abc-b8eb-d8b016d9c696")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 116.9996 83.82 0)
+			(at 112.0406 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
