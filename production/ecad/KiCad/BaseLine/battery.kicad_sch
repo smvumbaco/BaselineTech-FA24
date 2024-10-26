@@ -3002,355 +3002,6 @@
 				)
 			)
 		)
-		(symbol "Transistor_FET:Si3456DDV"
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "Q"
-				(at 5.08 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "Si3456DDV"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm"
-				(at 5.08 -1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/69075/si3456ddv.pdf"
-				(at 5.08 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-					(hide yes)
-				)
-			)
-			(property "Description" "30V Vds, 6.3A Id, N-Channel MOSFET, TSOP-6"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "N-Channel MOSFET"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TSOP*1.65x3.05mm*P0.95mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Si3456DDV_0_1"
-				(polyline
-					(pts
-						(xy 0.254 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.905) (xy 0.254 -1.905)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 2.54) (xy 2.54 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.778) (xy 3.302 -1.778) (xy 3.302 1.778) (xy 0.762 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.016 0) (xy 2.032 0.381) (xy 2.032 -0.381) (xy 1.016 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 3.302 0.381) (xy 2.921 -0.254) (xy 3.683 -0.254) (xy 3.302 0.381)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 1.651 0)
-					(radius 2.794)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.54 -1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(circle
-					(center 2.54 1.778)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "Si3456DDV_1_1"
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54)
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54) hide
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "G"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "S"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54) hide
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 5.08 270)
-					(length 2.54) hide
-					(name "D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:+3.3V"
 			(power)
 			(pin_numbers hide)
@@ -3728,7 +3379,7 @@
 		(at 146.05 167.64)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "4708d42f-b9bd-48f5-918d-525afe158504")
+		(uuid "4bb395e2-542f-4215-bb39-e92f0bc48c11")
 	)
 	(junction
 		(at 39.37 50.8)
@@ -3741,12 +3392,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52e54261-52eb-405d-b53f-0b1bcc351d01")
-	)
-	(junction
-		(at 46.99 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5755481a-8e32-473b-9c3f-c3b74ab14091")
 	)
 	(junction
 		(at 41.91 142.24)
@@ -3765,6 +3410,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8bd2d864-7cbf-4594-b64e-d74526fec14a")
+	)
+	(junction
+		(at 45.72 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9186975b-7412-41e8-af68-5fad7330fade")
 	)
 	(junction
 		(at 91.44 50.8)
@@ -3960,7 +3611,7 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 50.8) (xy 46.99 53.34)
+			(xy 45.72 50.8) (xy 45.72 53.34)
 		)
 		(stroke
 			(width 0)
@@ -4080,6 +3731,16 @@
 	)
 	(wire
 		(pts
+			(xy 45.72 50.8) (xy 53.34 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "272adae9-d1f8-4366-873c-bf2b550bf1bb")
+	)
+	(wire
+		(pts
 			(xy 107.95 50.8) (xy 107.95 53.34)
 		)
 		(stroke
@@ -4117,6 +3778,16 @@
 			(type default)
 		)
 		(uuid "2e358251-b77d-4a81-aa09-c62aff7e09b4")
+	)
+	(wire
+		(pts
+			(xy 146.05 162.56) (xy 146.05 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34f98e23-e5bc-4b56-8c48-4d712cfd0de1")
 	)
 	(wire
 		(pts
@@ -4420,7 +4091,7 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 121.92) (xy 146.05 144.78)
+			(xy 146.05 121.92) (xy 146.05 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4567,6 +4238,16 @@
 			(type default)
 		)
 		(uuid "7bd537a9-ac7c-45c0-b697-29b03317257e")
+	)
+	(wire
+		(pts
+			(xy 146.05 153.67) (xy 146.05 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f81a94c-1a82-445a-bf28-efc867d5c679")
 	)
 	(wire
 		(pts
@@ -4800,16 +4481,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 149.86) (xy 146.05 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6d0279f-c29e-4cb8-88b0-91dc5ebfdedf")
-	)
-	(wire
-		(pts
 			(xy 62.23 154.94) (xy 62.23 157.48)
 		)
 		(stroke
@@ -4840,7 +4511,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 50.8) (xy 46.99 50.8)
+			(xy 39.37 50.8) (xy 45.72 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5120,16 +4791,6 @@
 	)
 	(wire
 		(pts
-			(xy 46.99 60.96) (xy 46.99 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e35fe1ae-96a9-406c-9acd-e165ded56be6")
-	)
-	(wire
-		(pts
 			(xy 232.41 49.53) (xy 248.92 49.53)
 		)
 		(stroke
@@ -5167,16 +4828,6 @@
 			(type default)
 		)
 		(uuid "ea4db3e4-3b72-4c40-b5a4-67c0e485eedc")
-	)
-	(wire
-		(pts
-			(xy 46.99 50.8) (xy 53.34 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ec827090-5db2-4a57-a359-7a22cfba0ff0")
 	)
 	(wire
 		(pts
@@ -5257,6 +4908,16 @@
 			(type default)
 		)
 		(uuid "f5af3842-ee2b-41a4-b1e6-c5b66c00e242")
+	)
+	(wire
+		(pts
+			(xy 45.72 60.96) (xy 45.72 64.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8ad234b-12ab-4936-b2db-617540131ae9")
 	)
 	(wire
 		(pts
@@ -6957,7 +6618,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 115.57 124.46 0)
 			(effects
 				(font
@@ -7533,6 +7194,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:AO3400A")
+		(at 106.68 134.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6a6d7319-56d8-4eba-a11d-8db6f0c1891f")
+		(property "Reference" "Q3"
+			(at 113.03 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AO3400A"
+			(at 113.03 135.8899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 111.76 136.525 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
+			(at 111.76 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "30V Vds, 5.7A Id, N-Channel MOSFET, SOT-23"
+			(at 106.68 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74ec17ff-d674-4639-82c0-055322407b58")
+		)
+		(pin "2"
+			(uuid "cc359d60-8409-4c4b-aebe-da79a78a01cb")
+		)
+		(pin "3"
+			(uuid "5aeb0a54-6bcf-4428-acf6-bb7f35e066eb")
+		)
+		(instances
+			(project "BaseLine"
+				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/31f727a4-3278-43bf-88f9-c0e8e93f0a52"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 72.39 69.85 0)
 		(unit 1)
@@ -7823,7 +7560,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 101.6 121.92 0)
 			(effects
 				(font
@@ -7860,6 +7597,76 @@
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/31f727a4-3278-43bf-88f9-c0e8e93f0a52"
 					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 146.05 151.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8100c442-997a-47f1-9160-87106945a5cc")
+		(property "Reference" "R10"
+			(at 148.59 149.8599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "17.4k"
+			(at 148.59 152.3999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 146.05 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 146.05 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7a07b655-b766-4b9a-84f9-241d80180826")
+		)
+		(pin "1"
+			(uuid "2377fbec-60ca-4eb6-a62a-66d4c36a32d8")
+		)
+		(instances
+			(project "BaseLine"
+				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/31f727a4-3278-43bf-88f9-c0e8e93f0a52"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -8304,7 +8111,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
 			(at 151.13 121.92 0)
 			(effects
 				(font
@@ -8965,76 +8772,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_Small_US")
-		(at 146.05 147.32 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a519766c-173b-4b4b-9b9f-313d2b381457")
-		(property "Reference" "R33"
-			(at 148.59 146.0499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "34.8k"
-			(at 148.59 148.5899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 146.05 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, small US symbol"
-			(at 146.05 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8a4b420d-bc51-483f-af4b-3da201a6665b")
-		)
-		(pin "1"
-			(uuid "5bef27c2-2a9d-46c8-a54d-62b0d11fac29")
-		)
-		(instances
-			(project "BaseLine"
-				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/31f727a4-3278-43bf-88f9-c0e8e93f0a52"
-					(reference "R33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 46.99 152.4 0)
 		(unit 1)
@@ -9161,91 +8898,6 @@
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/31f727a4-3278-43bf-88f9-c0e8e93f0a52"
 					(reference "#PWR095")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_FET:Si3456DDV")
-		(at 106.68 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b4cd788f-2983-490d-bc85-f9430225b5f0")
-		(property "Reference" "Q3"
-			(at 113.03 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Si3456DDV"
-			(at 113.03 135.8899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:TSOP-6_1.65x3.05mm_P0.95mm"
-			(at 111.76 136.525 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/69075/si3456ddv.pdf"
-			(at 111.76 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "30V Vds, 6.3A Id, N-Channel MOSFET, TSOP-6"
-			(at 106.68 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b3bf90e5-fde0-4261-add0-7adb46654c64")
-		)
-		(pin "2"
-			(uuid "33aa388e-6d87-4fb4-ab76-ccf8b531efbd")
-		)
-		(pin "1"
-			(uuid "eb9ffeeb-581a-4b76-a712-1eff68ec82b0")
-		)
-		(pin "6"
-			(uuid "48ea82fc-11ce-4de7-a063-875ee044b0b2")
-		)
-		(pin "4"
-			(uuid "de5b966f-76fc-4be4-8f13-c071f4180318")
-		)
-		(pin "5"
-			(uuid "d4a285b5-aac7-4699-aec4-170ebec92d8e")
-		)
-		(instances
-			(project "BaseLine"
-				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/31f727a4-3278-43bf-88f9-c0e8e93f0a52"
-					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -10309,36 +9961,33 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 46.99 57.15 180)
+		(at 45.72 57.15 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f3aa27b9-13cf-41f3-8945-ca450b04a3c3")
 		(property "Reference" "C25"
-			(at 50.8 55.8799 0)
+			(at 46.736 54.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Value" "1uF"
-			(at 50.8 58.4199 0)
+			(at 47.244 59.182 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 46.0248 53.34 0)
+			(at 44.7548 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10347,7 +9996,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 46.99 57.15 0)
+			(at 45.72 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10356,7 +10005,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 46.99 57.15 0)
+			(at 45.72 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10582,7 +10231,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 46.99 64.77 0)
+		(at 45.72 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10591,7 +10240,7 @@
 		(fields_autoplaced yes)
 		(uuid "f65627f5-0798-4ff4-b091-8c930868470b")
 		(property "Reference" "#PWR074"
-			(at 46.99 71.12 0)
+			(at 45.72 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10600,7 +10249,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 46.99 69.85 0)
+			(at 45.72 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10608,7 +10257,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 46.99 64.77 0)
+			(at 45.72 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10617,7 +10266,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 46.99 64.77 0)
+			(at 45.72 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10626,7 +10275,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 46.99 64.77 0)
+			(at 45.72 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10773,6 +10422,76 @@
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/31f727a4-3278-43bf-88f9-c0e8e93f0a52"
 					(reference "TP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 146.05 160.02 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f851e8a6-7e3b-43dc-9522-44cb3403a2ab")
+		(property "Reference" "R12"
+			(at 148.59 158.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "17.4k"
+			(at 148.59 161.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 146.05 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 146.05 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor, small US symbol"
+			(at 146.05 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ad32fee8-0254-4bc9-940d-61831dee3fcc")
+		)
+		(pin "1"
+			(uuid "8d92a2e0-bc97-46dc-9ad2-a395f9b5f08f")
+		)
+		(instances
+			(project "BaseLine"
+				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/31f727a4-3278-43bf-88f9-c0e8e93f0a52"
+					(reference "R12")
 					(unit 1)
 				)
 			)
