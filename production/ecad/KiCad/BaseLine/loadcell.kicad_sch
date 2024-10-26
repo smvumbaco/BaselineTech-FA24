@@ -7290,7 +7290,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "DNP"
 			(at 67.31 196.596 90)
 			(effects
 				(font
@@ -7326,10 +7326,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "701d1e06-ff6e-497e-84cc-aa2e0a214d72")
+			(uuid "701d1e06-ff6e-497e-84cc-aa2e0a214d73")
 		)
 		(pin "1"
-			(uuid "aced25db-d556-43e0-8c48-8dfed32fcbf0")
+			(uuid "aced25db-d556-43e0-8c48-8dfed32fcbf1")
 		)
 		(instances
 			(project "BaseLine"
