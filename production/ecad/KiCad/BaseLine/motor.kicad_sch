@@ -3709,7 +3709,7 @@
 		(uuid "eb946400-adbd-411f-9979-fec4163a84a7")
 	)
 	(global_label "FAULTn_2"
-		(shape output)
+		(shape input)
 		(at 46.99 30.48 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3731,7 +3731,7 @@
 		)
 	)
 	(global_label "FAULTn_1"
-		(shape output)
+		(shape input)
 		(at 233.68 43.18 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3775,7 +3775,7 @@
 		)
 	)
 	(global_label "FAULTn_2"
-		(shape output)
+		(shape input)
 		(at 233.68 105.41 0)
 		(fields_autoplaced yes)
 		(effects
@@ -3797,7 +3797,7 @@
 		)
 	)
 	(global_label "FAULTn_1"
-		(shape output)
+		(shape input)
 		(at 46.99 25.4 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3863,7 +3863,7 @@
 		)
 	)
 	(global_label "SCL"
-		(shape bidirectional)
+		(shape input)
 		(at 116.84 116.84 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3874,7 +3874,7 @@
 		)
 		(uuid "aaa50e23-e185-4825-a5c0-c71fcec6ed63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.2359 116.84 0)
+			(at 110.3472 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3885,7 +3885,7 @@
 		)
 	)
 	(global_label "SCL"
-		(shape bidirectional)
+		(shape input)
 		(at 76.2 25.4 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3896,7 +3896,7 @@
 		)
 		(uuid "e03a3167-fda4-463b-ace8-bcef0bab9db1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.5959 25.4 0)
+			(at 69.7072 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3907,7 +3907,7 @@
 		)
 	)
 	(global_label "SCL"
-		(shape bidirectional)
+		(shape input)
 		(at 116.84 54.61 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3918,7 +3918,7 @@
 		)
 		(uuid "f9d27d57-f273-4c9e-93b0-b5fc54b67042")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.2359 54.61 0)
+			(at 110.3472 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3965,7 +3965,7 @@
 		(uuid "b02ba0ee-2137-402c-ba88-0ed8b70b5b98")
 	)
 	(hierarchical_label "SDA"
-		(shape input)
+		(shape bidirectional)
 		(at 78.74 30.48 0)
 		(fields_autoplaced yes)
 		(effects

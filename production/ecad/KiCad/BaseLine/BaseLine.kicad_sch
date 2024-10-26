@@ -73,6 +73,36 @@
 				(justify left top)
 			)
 		)
+		(pin "GND" output
+			(at 156.21 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "05c0a396-a498-473a-80d6-45a1ca8ba1da")
+		)
+		(pin "+3.3V" output
+			(at 152.4 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "188b1bd6-fb26-4584-815b-76f415d93e5d")
+		)
+		(pin "+5V" output
+			(at 148.59 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "76a30225-3f83-4230-827a-059671a50e63")
+		)
 		(instances
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20"
@@ -112,7 +142,7 @@
 			)
 		)
 		(pin "GND" input
-			(at 88.9 71.12 0)
+			(at 62.23 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -122,7 +152,7 @@
 			(uuid "24dbf908-f2c5-4294-a70a-074d770ace2e")
 		)
 		(pin "+5V" input
-			(at 88.9 43.18 0)
+			(at 58.42 35.56 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -132,22 +162,22 @@
 			(uuid "b03a3a15-7e99-45c8-83f5-26b2a715f068")
 		)
 		(pin "SDA" input
-			(at 38.1 52.07 180)
+			(at 88.9 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "e820f0a6-b77a-421f-a059-a4819973bad9")
 		)
 		(pin "SCL" input
-			(at 38.1 60.96 180)
+			(at 88.9 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 			(uuid "6b3785e6-83cd-4f05-bdb9-ca0727308134")
 		)
@@ -162,7 +192,7 @@
 			(uuid "c5dfc280-babf-4047-a0b0-3ffe86009caa")
 		)
 		(pin "FAULTn_2" input
-			(at 88.9 60.96 0)
+			(at 88.9 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -278,7 +308,7 @@
 			(uuid "e730ebbf-28bd-4926-b85f-995d5a23d40e")
 		)
 		(pin "+5V" input
-			(at 227.33 95.25 90)
+			(at 226.06 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -288,7 +318,7 @@
 			(uuid "9fb50d2d-be3a-4ca2-9114-28ecfc947c34")
 		)
 		(pin "GND" input
-			(at 231.14 95.25 90)
+			(at 233.68 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -298,7 +328,7 @@
 			(uuid "a804c066-8793-4c4e-a143-af3903438ecf")
 		)
 		(pin "+3.3V" input
-			(at 223.52 95.25 90)
+			(at 229.87 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -345,6 +375,166 @@
 				(justify left top)
 			)
 		)
+		(pin "CLK_rotaryenc" output
+			(at 128.27 38.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e5fa6403-a753-43ab-b385-1715534812cb")
+		)
+		(pin "DO_rotaryenc" input
+			(at 128.27 40.64 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7ad79f0c-e6d4-48b9-af3f-de92c0422f2d")
+		)
+		(pin "CS_rotaryenc" output
+			(at 128.27 43.18 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e5a71f6e-5371-4f33-b05c-4d009fdf3e49")
+		)
+		(pin "PDWN" output
+			(at 128.27 59.69 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "0a1addd0-f126-482a-9b5e-d5f2b35884c1")
+		)
+		(pin "CLK" output
+			(at 128.27 62.23 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "ac69fa30-e4db-45e6-a7cf-ed389d79f855")
+		)
+		(pin "FAULTn_1" output
+			(at 180.34 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "6f5f95ae-009c-48bc-b293-209a960c5f4c")
+		)
+		(pin "SPEED" output
+			(at 128.27 57.15 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1bd1f9e6-7191-4736-9a48-871400c66127")
+		)
+		(pin "FAULTn_2" output
+			(at 180.34 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "72af3a11-69e2-4c5c-b830-99736a2340d0")
+		)
+		(pin "MUX_CS_2" output
+			(at 180.34 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "72578d80-2494-4644-9738-9ef4e97bab0f")
+		)
+		(pin "MUX_CS_1" output
+			(at 180.34 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "4dbe37c6-dafe-427e-a5bd-1feb6dc7e1e5")
+		)
+		(pin "DATA_LOADCELL" input
+			(at 128.27 64.77 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "1572c34f-f0dc-41d7-9472-a101848e6fc6")
+		)
+		(pin "ENABLE_MUX" output
+			(at 180.34 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "081fe1aa-1180-4f72-bce6-dd4f3fec93d2")
+		)
+		(pin "SCL" output
+			(at 161.29 77.47 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "8ea5f3c4-bde9-41b4-bacb-67f8572b3b04")
+		)
+		(pin "SDA" input
+			(at 157.48 77.47 270)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "986232bf-7aac-4834-9f56-7fee528b904f")
+		)
+		(pin "+3.3V" input
+			(at 152.4 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "b554d698-c351-45a3-a06b-48375c53bba1")
+		)
+		(pin "GND" input
+			(at 154.94 34.29 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "77345930-00e2-4b55-907b-e9b798af3daa")
+		)
 		(instances
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20"
@@ -384,7 +574,7 @@
 			)
 		)
 		(pin "CLK" input
-			(at 45.72 152.4 90)
+			(at 90.17 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -394,7 +584,7 @@
 			(uuid "aa339bf3-7cd0-45e4-b10f-505488d9d9ae")
 		)
 		(pin "PDWN" input
-			(at 48.26 152.4 90)
+			(at 90.17 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -404,7 +594,7 @@
 			(uuid "7a69cb37-df16-459b-8417-14a48930d796")
 		)
 		(pin "SPEED" input
-			(at 50.8 152.4 90)
+			(at 90.17 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -414,7 +604,7 @@
 			(uuid "1e70a679-8dbf-42a3-9a79-3110dd04f380")
 		)
 		(pin "MUX_CS_1" input
-			(at 60.96 152.4 90)
+			(at 90.17 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -424,7 +614,7 @@
 			(uuid "bb2636c6-fe49-4d38-b662-4844d420e40b")
 		)
 		(pin "MUX_CS_2" input
-			(at 63.5 152.4 90)
+			(at 90.17 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -434,7 +624,7 @@
 			(uuid "1e3f48a9-3668-4357-821c-9e38353e7c49")
 		)
 		(pin "ENABLE_MUX" input
-			(at 66.04 152.4 90)
+			(at 90.17 176.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -442,16 +632,6 @@
 				(justify right)
 			)
 			(uuid "73abc0c6-48c4-4561-875d-18adc19b94ac")
-		)
-		(pin "DATA_OUTPUT" output
-			(at 73.66 152.4 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "68d3acca-0f66-4757-bb9b-6539effa8f70")
 		)
 		(pin "SCL" input
 			(at 39.37 176.53 180)
@@ -464,7 +644,7 @@
 			(uuid "addc1e8a-9b68-45bc-b141-5355a8c84ea7")
 		)
 		(pin "SDA" output
-			(at 39.37 179.07 180)
+			(at 39.37 173.99 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -474,7 +654,7 @@
 			(uuid "d10b6e5a-863e-4f1a-9697-d35cdc7c1dc3")
 		)
 		(pin "+5V" input
-			(at 90.17 170.18 0)
+			(at 59.69 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -484,7 +664,7 @@
 			(uuid "f401f0e0-8789-450e-a1f1-a5ea626c79d0")
 		)
 		(pin "+3.3V" input
-			(at 90.17 172.72 0)
+			(at 62.23 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -494,7 +674,7 @@
 			(uuid "f82f5352-ed24-4c23-9ca5-30c373bffafd")
 		)
 		(pin "GND" input
-			(at 90.17 175.26 0)
+			(at 64.77 152.4 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -502,6 +682,16 @@
 				(justify right)
 			)
 			(uuid "e866d267-9f32-437b-b682-9a01cc95096c")
+		)
+		(pin "DATA_LOADCELL" output
+			(at 90.17 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "c4290954-add8-42f6-b4a3-0182482a0e72")
 		)
 		(instances
 			(project "BaseLine"
