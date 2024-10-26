@@ -4092,7 +4092,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" ""
 			(at 264.16 48.26 0)
 			(effects
 				(font
@@ -5146,7 +5146,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" ""
 			(at 264.16 110.49 0)
 			(effects
 				(font
@@ -5883,7 +5883,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 219.71 101.6 90)
 			(effects
 				(font
@@ -6349,7 +6349,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "10k"
 			(at 218.44 39.37 90)
 			(effects
 				(font

@@ -9533,7 +9533,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints2:DPAK_STM"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 57.15 168.275 0)
 			(effects
 				(font
@@ -9544,7 +9544,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/group2/51/4c/d5/e5/c6/ef/43/17/CD00043538/files/CD00043538.pdf/jcr:content/translations/en.CD00043538.pdf"
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
 			(at 52.07 166.37 0)
 			(effects
 				(font
@@ -10753,7 +10753,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "footprints2:DPAK_STM"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 57.15 182.245 0)
 			(effects
 				(font
@@ -10764,7 +10764,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/content/ccc/resource/technical/document/datasheet/group2/51/4c/d5/e5/c6/ef/43/17/CD00043538/files/CD00043538.pdf/jcr:content/translations/en.CD00043538.pdf"
+		(property "Datasheet" "http://www.aosmd.com/pdfs/datasheet/AO3400A.pdf"
 			(at 52.07 184.15 0)
 			(effects
 				(font

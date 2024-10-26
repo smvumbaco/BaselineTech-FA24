@@ -5728,7 +5728,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" ""
 			(at 38.1 119.38 0)
 			(effects
 				(font
@@ -5940,7 +5940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BLT:JST_B2B-XH-A"
+		(property "Footprint" ""
 			(at 264.16 93.98 0)
 			(effects
 				(font
@@ -6567,7 +6567,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
+		(property "Footprint" ""
 			(at 38.1 125.73 0)
 			(effects
 				(font
@@ -7290,7 +7290,7 @@
 				)
 			)
 		)
-		(property "Value" "R_US"
+		(property "Value" "DNP"
 			(at 67.31 196.596 90)
 			(effects
 				(font
