@@ -5348,7 +5348,7 @@
 	(text_box "To-Do: \n\nFind the needed resistor and capacitor values for active low-pass filter\n\n"
 		(exclude_from_sim no)
 		(at 240.03 21.59 0)
-		(size 43.18 40.64)
+		(size 43.18 12.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -5728,7 +5728,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 38.1 119.38 0)
 			(effects
 				(font
@@ -5798,7 +5798,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BLT:JST_B2B-XH-A"
 			(at 36.83 87.63 0)
 			(effects
 				(font
@@ -5856,7 +5856,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2314c0de-920c-48c5-823a-8cf1f8451e9d")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0101"
 			(at 255.27 86.36 0)
 			(effects
 				(font
@@ -5906,7 +5906,7 @@
 		(instances
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/15451660-bad9-4e79-85d3-2d59df8c5ccd"
-					(reference "#PWR095")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -5940,7 +5940,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "BLT:JST_B2B-XH-A"
 			(at 264.16 93.98 0)
 			(effects
 				(font
@@ -6144,7 +6144,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 36.576 143.256 90)
 			(effects
 				(font
@@ -6211,7 +6211,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 67.056 166.116 90)
 			(effects
 				(font
@@ -6360,7 +6360,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 185.42 55.5752 0)
 			(effects
 				(font
@@ -6430,7 +6430,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 44.1452 149.86 0)
 			(effects
 				(font
@@ -6482,7 +6482,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "845c4729-4135-402c-a25d-31bee017ffd0")
-		(property "Reference" "R38"
+		(property "Reference" "R56"
 			(at 215.9 106.6799 0)
 			(effects
 				(font
@@ -6500,7 +6500,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 213.36 107.95 0)
 			(effects
 				(font
@@ -6536,7 +6536,7 @@
 		(instances
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/15451660-bad9-4e79-85d3-2d59df8c5ccd"
-					(reference "R38")
+					(reference "R56")
 					(unit 1)
 				)
 			)
@@ -6567,7 +6567,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_2Pads_Pitch2.54mm_Drill0.8mm"
 			(at 38.1 125.73 0)
 			(effects
 				(font
@@ -6703,7 +6703,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 191.4652 78.74 0)
 			(effects
 				(font
@@ -6885,7 +6885,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a1878679-7f2e-4cad-b3fd-a5de5bb8835d")
-		(property "Reference" "R37"
+		(property "Reference" "R16"
 			(at 205.994 103.886 90)
 			(effects
 				(font
@@ -6901,7 +6901,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 208.28 101.6 0)
 			(effects
 				(font
@@ -6937,7 +6937,7 @@
 		(instances
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/15451660-bad9-4e79-85d3-2d59df8c5ccd"
-					(reference "R37")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -6970,7 +6970,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 116.5352 104.14 0)
 			(effects
 				(font
@@ -7298,7 +7298,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 67.056 195.326 90)
 			(effects
 				(font
@@ -7350,7 +7350,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2517445-23d1-4b7e-9ea1-6482746e68e8")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR0103"
 			(at 201.93 105.41 0)
 			(effects
 				(font
@@ -7400,7 +7400,7 @@
 		(instances
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/15451660-bad9-4e79-85d3-2d59df8c5ccd"
-					(reference "#PWR093")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -7431,7 +7431,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 35.306 178.816 90)
 			(effects
 				(font
@@ -7626,7 +7626,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8562cfb-48a8-4522-a48b-85e46d98c251")
-		(property "Reference" "VAR"
+		(property "Reference" "VAR1"
 			(at 46.482 182.626 0)
 			(effects
 				(font
@@ -7642,7 +7642,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 42.8752 185.42 0)
 			(effects
 				(font
@@ -7678,7 +7678,7 @@
 		(instances
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/15451660-bad9-4e79-85d3-2d59df8c5ccd"
-					(reference "VAR")
+					(reference "VAR1")
 					(unit 1)
 				)
 			)
@@ -7694,7 +7694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eaee743f-0ea7-427b-877e-447e30b876b2")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0102"
 			(at 213.36 118.11 0)
 			(effects
 				(font
@@ -7744,7 +7744,7 @@
 		(instances
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/15451660-bad9-4e79-85d3-2d59df8c5ccd"
-					(reference "#PWR094")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
