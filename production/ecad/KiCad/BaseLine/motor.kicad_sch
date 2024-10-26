@@ -5883,7 +5883,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "R_US"
 			(at 219.71 101.6 90)
 			(effects
 				(font
@@ -6349,7 +6349,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "R_US"
 			(at 218.44 39.37 90)
 			(effects
 				(font
