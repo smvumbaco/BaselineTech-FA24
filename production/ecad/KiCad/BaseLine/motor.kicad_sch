@@ -1925,7 +1925,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 48.26) (xy 246.38 48.26)
+			(xy 270.51 48.26) (xy 246.38 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1945,7 +1945,7 @@
 	)
 	(wire
 		(pts
-			(xy 281.94 48.26) (xy 269.24 48.26)
+			(xy 281.94 48.26) (xy 280.67 48.26)
 		)
 		(stroke
 			(width 0)
@@ -4106,7 +4106,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_2Pole")
-		(at 264.16 48.26 0)
+		(at 275.59 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4115,7 +4115,7 @@
 		(fields_autoplaced yes)
 		(uuid "0e3f0b10-fa59-4e6f-89aa-ed2436b45cd0")
 		(property "Reference" "TP23"
-			(at 264.16 43.18 0)
+			(at 275.59 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4123,7 +4123,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Motor_1"
-			(at 264.16 45.72 0)
+			(at 275.59 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +4131,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 264.16 48.26 0)
+			(at 275.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4140,7 +4140,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 264.16 48.26 0)
+			(at 275.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4149,7 +4149,7 @@
 			)
 		)
 		(property "Description" "2-polar test point"
-			(at 264.16 48.26 0)
+			(at 275.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5884,6 +5884,15 @@
 				(hide yes)
 			)
 		)
+		(property "ConnLink" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-XH-A/1651045"
+			(at 259.08 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2a28326e-6761-45dc-b6b1-2a4d9cbcb02d")
 		)
@@ -6477,6 +6486,15 @@
 			)
 		)
 		(property "Description" "VJQ24-35K270B"
+			(at 259.08 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ConnectorLink" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B2B-XH-A/1651045"
 			(at 259.08 114.3 0)
 			(effects
 				(font
