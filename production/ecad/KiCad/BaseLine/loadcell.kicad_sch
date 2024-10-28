@@ -2921,6 +2921,16 @@
 	)
 	(wire
 		(pts
+			(xy 254 83.82) (xy 252.73 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cf12599-07ee-4114-8979-60881ba4e0b8")
+	)
+	(wire
+		(pts
 			(xy 41.91 177.8) (xy 57.15 177.8)
 		)
 		(stroke
@@ -3021,7 +3031,7 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 86.36) (xy 261.62 86.36)
+			(xy 252.73 86.36) (xy 266.7 86.36)
 		)
 		(stroke
 			(width 0)
@@ -3211,16 +3221,6 @@
 	)
 	(wire
 		(pts
-			(xy 252.73 83.82) (xy 255.27 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7629c0d6-acb2-44f5-92dd-165ba5d0a77b")
-	)
-	(wire
-		(pts
 			(xy 54.61 144.78) (xy 58.42 144.78)
 		)
 		(stroke
@@ -3288,6 +3288,16 @@
 			(type default)
 		)
 		(uuid "85fde071-eb6e-45e8-a9a6-93a104c548b5")
+	)
+	(wire
+		(pts
+			(xy 266.7 69.85) (xy 266.7 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86fecca3-a72a-4071-aff0-21199565240e")
 	)
 	(wire
 		(pts
@@ -3481,16 +3491,6 @@
 	)
 	(wire
 		(pts
-			(xy 261.62 86.36) (xy 261.62 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a5462ac6-9e4b-4804-80dd-00a159fdec26")
-	)
-	(wire
-		(pts
 			(xy 71.12 165.1) (xy 119.38 165.1)
 		)
 		(stroke
@@ -3551,16 +3551,6 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 83.82) (xy 255.27 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2ba9ce3-961f-457b-b160-de49a2182bd0")
-	)
-	(wire
-		(pts
 			(xy 49.53 92.71) (xy 49.53 119.38)
 		)
 		(stroke
@@ -3588,6 +3578,16 @@
 			(type default)
 		)
 		(uuid "ba9b6ab3-5c39-400c-bb29-b92d6e9c6c19")
+	)
+	(wire
+		(pts
+			(xy 254 80.01) (xy 254 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bc19514b-6536-44a1-ba70-d1f9ac5d1261")
 	)
 	(wire
 		(pts
@@ -3798,6 +3798,16 @@
 			(type default)
 		)
 		(uuid "e64e7560-0009-45ce-a404-7f7aadb3ca6b")
+	)
+	(wire
+		(pts
+			(xy 266.7 81.28) (xy 266.7 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9c2d560-0431-40e8-83ee-88b81f970f74")
 	)
 	(wire
 		(pts
@@ -6032,7 +6042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "BLT:JST_B2B-XH-A"
 			(at 36.83 87.63 0)
 			(effects
 				(font
@@ -6059,15 +6069,6 @@
 				(hide yes)
 			)
 		)
-		(property "ConnLink" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-EH-A/758748?s=N4IgTCBcDaIEIBY4FoCiAJZBBEBdAvkA"
-			(at 36.83 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "4"
 			(uuid "9400895b-59df-49dd-ab4f-e7b7988c8f92")
 		)
@@ -6084,72 +6085,6 @@
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/15451660-bad9-4e79-85d3-2d59df8c5ccd"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 255.27 82.55 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2314c0de-920c-48c5-823a-8cf1f8451e9d")
-		(property "Reference" "#PWR0101"
-			(at 255.27 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 255.27 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 255.27 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ae81ec9b-bea1-4789-b4d6-9a37fc22df8b")
-		)
-		(instances
-			(project "BaseLine"
-				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/15451660-bad9-4e79-85d3-2d59df8c5ccd"
-					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -6183,7 +6118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" ""
 			(at 264.16 93.98 0)
 			(effects
 				(font
@@ -6192,7 +6127,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/B4B-EH-A/758748?s=N4IgTCBcDaIEIBY4FoCiAJZBBEBdAvkA"
+		(property "Datasheet" "~"
 			(at 264.16 93.98 0)
 			(effects
 				(font
@@ -6363,6 +6298,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 254 76.2 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3a2955ba-da21-4425-9dde-a3679775e016")
+		(property "Reference" "C24"
+			(at 250.444 74.168 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 257.81 74.9301 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 254.9652 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 254 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 254 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "780cb145-0d56-4834-b71f-853780224893")
+		)
+		(pin "2"
+			(uuid "b9e3c6ce-d936-44c9-bc81-adb4ad34f12e")
+		)
+		(instances
+			(project "BaseLine"
+				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/15451660-bad9-4e79-85d3-2d59df8c5ccd"
+					(reference "C24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 171.45 25.4 0)
 		(unit 1)
@@ -6420,7 +6425,7 @@
 			(uuid "d96bc365-5947-4341-b183-c65e5aa00340")
 		)
 		(instances
-			(project "BaseLine"
+			(project ""
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/15451660-bad9-4e79-85d3-2d59df8c5ccd"
 					(reference "#PWR0120")
 					(unit 1)
@@ -6490,6 +6495,72 @@
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/15451660-bad9-4e79-85d3-2d59df8c5ccd"
 					(reference "R35")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 254 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3e5fcdb5-0cb7-40ec-8423-2d97373116f2")
+		(property "Reference" "#PWR0101"
+			(at 254 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 254 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 254 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "81db0453-6a97-4ce9-aa76-04f537509365")
+		)
+		(instances
+			(project "BaseLine"
+				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/15451660-bad9-4e79-85d3-2d59df8c5ccd"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -6784,9 +6855,10 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
+		(fields_autoplaced yes)
 		(uuid "8084fec4-be39-414b-afdf-06a5731159a3")
 		(property "Reference" "C18"
-			(at 44.704 144.018 0)
+			(at 46.99 144.7799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6795,7 +6867,7 @@
 			)
 		)
 		(property "Value" "VAR"
-			(at 44.45 148.336 0)
+			(at 46.99 147.3199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6864,7 +6936,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "DNP"
 			(at 215.9 109.2199 0)
 			(effects
 				(font
@@ -7146,7 +7218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
+		(property "Footprint" ""
 			(at 179.07 27.94 0)
 			(effects
 				(font
@@ -7183,7 +7255,7 @@
 			(uuid "f92f6231-67a0-4cc1-bc47-a0b0ee8a019c")
 		)
 		(instances
-			(project "BaseLine"
+			(project ""
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/15451660-bad9-4e79-85d3-2d59df8c5ccd"
 					(reference "J15")
 					(unit 1)
@@ -8063,7 +8135,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 261.62 83.82 0)
+		(at 266.7 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8072,7 +8144,7 @@
 		(fields_autoplaced yes)
 		(uuid "e53dae59-da01-45b2-b979-799df3eeb7e2")
 		(property "Reference" "#PWR097"
-			(at 261.62 87.63 0)
+			(at 266.7 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8081,7 +8153,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 261.62 78.74 0)
+			(at 266.7 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8089,7 +8161,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 261.62 83.82 0)
+			(at 266.7 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8098,7 +8170,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 261.62 83.82 0)
+			(at 266.7 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8107,7 +8179,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 261.62 83.82 0)
+			(at 266.7 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8136,16 +8208,16 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e8562cfb-48a8-4522-a48b-85e46d98c251")
-		(property "Reference" "C"
-			(at 45.974 183.896 0)
+		(property "Reference" "VAR1"
+			(at 46.482 182.626 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "VAR"
-			(at 44.704 179.324 0)
+		(property "Value" "C"
+			(at 46.228 180.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8188,7 +8260,7 @@
 		(instances
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/15451660-bad9-4e79-85d3-2d59df8c5ccd"
-					(reference "C")
+					(reference "VAR1")
 					(unit 1)
 				)
 			)
@@ -8498,6 +8570,76 @@
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/15451660-bad9-4e79-85d3-2d59df8c5ccd"
 					(reference "U11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 266.7 77.47 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f74800ab-a298-47df-bafd-628e6358ae2a")
+		(property "Reference" "C30"
+			(at 263.144 75.438 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 270.51 76.2001 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 267.6652 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 266.7 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6d85e5ab-0d54-4c40-a86c-17b7e680882f")
+		)
+		(pin "2"
+			(uuid "a05c793f-eaab-4fc6-a949-63b98524a536")
+		)
+		(instances
+			(project "BaseLine"
+				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/15451660-bad9-4e79-85d3-2d59df8c5ccd"
+					(reference "C30")
 					(unit 1)
 				)
 			)
