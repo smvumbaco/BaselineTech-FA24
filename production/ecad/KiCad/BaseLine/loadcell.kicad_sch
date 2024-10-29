@@ -6042,7 +6042,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BLT:JST_B2B-XH-A"
+		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
 			(at 36.83 87.63 0)
 			(effects
 				(font
@@ -6118,7 +6118,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
 			(at 264.16 93.98 0)
 			(effects
 				(font
@@ -6425,7 +6425,7 @@
 			(uuid "d96bc365-5947-4341-b183-c65e5aa00340")
 		)
 		(instances
-			(project ""
+			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/15451660-bad9-4e79-85d3-2d59df8c5ccd"
 					(reference "#PWR0120")
 					(unit 1)
@@ -7218,7 +7218,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 			(at 179.07 27.94 0)
 			(effects
 				(font
@@ -7255,7 +7255,7 @@
 			(uuid "f92f6231-67a0-4cc1-bc47-a0b0ee8a019c")
 		)
 		(instances
-			(project ""
+			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/15451660-bad9-4e79-85d3-2d59df8c5ccd"
 					(reference "J15")
 					(unit 1)
