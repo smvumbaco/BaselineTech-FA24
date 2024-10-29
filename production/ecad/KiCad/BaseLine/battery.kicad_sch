@@ -4821,7 +4821,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 43.18) (xy 123.19 50.8)
+			(xy 123.19 46.99) (xy 123.19 50.8)
 		)
 		(stroke
 			(width 0)
@@ -5472,7 +5472,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 72.39 71.12 0)
 			(effects
 				(font
@@ -6761,7 +6761,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_B3B-EH-A_1x03_P2.50mm_Vertical"
 			(at 233.68 86.36 0)
 			(effects
 				(font
@@ -8519,7 +8519,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 40.64 50.8 0)
 			(effects
 				(font
@@ -10103,7 +10103,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 123.19 43.18 0)
+		(at 123.19 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10111,7 +10111,7 @@
 		(dnp no)
 		(uuid "f3f578f3-ac23-4bd3-b43b-8c41a32dcf34")
 		(property "Reference" "+3.3V1"
-			(at 120.396 38.1 0)
+			(at 120.396 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10120,7 +10120,7 @@
 			)
 		)
 		(property "Value" "TestPoint"
-			(at 118.872 36.322 0)
+			(at 118.872 40.132 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10128,8 +10128,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 128.27 43.18 0)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
+			(at 128.27 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10138,7 +10138,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 128.27 43.18 0)
+			(at 128.27 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10147,7 +10147,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 123.19 43.18 0)
+			(at 123.19 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10461,7 +10461,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 146.05 92.71 0)
 			(effects
 				(font

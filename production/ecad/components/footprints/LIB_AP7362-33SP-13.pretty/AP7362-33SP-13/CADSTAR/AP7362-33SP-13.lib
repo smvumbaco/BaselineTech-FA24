@@ -1,0 +1,16 @@
+.AP7362-33SP-13 :1 ;LDO Voltage Regulators LDO CMOS HiCurr SO-8 1.5A LowQ Adj 190mV
+SOIC127P600X150-9N
+*STM IC
+*NGS
+*PLB 1="GND" 2="EN" 3="IN_1" 4="IN_2" 5="OUT_1" 6="OUT_2" 7="OUT_3" 8="ADJ/NC" 9="EP"
+*MXP 9
+*DFN AP7362-33SP-13
+~!Mouser Part Number (621-AP7362-33SP-13)
+~!Link Mouser Price/Stock (https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP7362-33SP-13?qs=KKV7F4CK8NmzeNAjtGP7xA%3D%3D)
+~!Manufacturer_Name (Diodes Incorporated)
+~!Manufacturer_Part_Number (AP7362-33SP-13)
+~!Link Datasheet (https://www.diodes.com//assets/Datasheets/AP7362.pdf)
+~!Height (1.5mm)
+~!3D_Model (AP7362-33SP-13)
+AP7362-33SP-13
+1.1!U 2.1!U 3.1!U 4.1!U 9.1!U 8.1!U 7.1!U 6.1!U 5.1!U 
