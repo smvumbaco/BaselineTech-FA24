@@ -1,0 +1,9 @@
+Manufacturer=Diodes Incorporated
+PartNumber=AP7362-33SP-13
+PartCategory=Integrated Circuit
+PackageCategory=Small Outline Packages
+PinCount=9
+Version=5.1
+Released=2020-02-15 06:07:39
+Downloaded=2024-10-05 01:15:18
+3D=Y

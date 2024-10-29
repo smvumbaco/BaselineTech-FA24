@@ -1,0 +1,11 @@
+FILE_TYPE = MULTI_PHYS_TABLE;
+
+PART 'AP7362_33SP_13'
+CLASS = IC
+{========================================================================================}
+:"MANUFACTURER_NAME", "MANUFACTURER_PART_NUMBER"= "PART_NUMBER", "JEDEC_TYPE", "PACK_TYPE", "MOUSER_PART_NUMBER", "MOUSER_PRICE/STOCK", "DESCRIPTION", "DATASHEET", "HEIGHT";
+{========================================================================================}
+ "Diodes Incorporated", "AP7362-33SP-13" (!) = "", "SOIC127P600X150-9N", "Small Outline Packages", "621-AP7362-33SP-13", "https://www.mouser.co.uk/ProductDetail/Diodes-Incorporated/AP7362-33SP-13?qs=KKV7F4CK8NmzeNAjtGP7xA%3D%3D", "LDO Voltage Regulators LDO CMOS HiCurr SO-8 1.5A LowQ Adj 190mV", "https://www.diodes.com//assets/Datasheets/AP7362.pdf", "1.5 mm"
+END_PART
+
+END.
