@@ -2481,7 +2481,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 99.314 98.044 90)
 			(effects
 				(font
@@ -2581,7 +2581,7 @@
 			(uuid "112af93b-44f8-40a9-894e-7484e3b87e63")
 		)
 		(instances
-			(project "BaseLine"
+			(project ""
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/e3080f39-1d26-4bce-b471-534f477eeea5"
 					(reference "#PWR099")
 					(unit 1)
@@ -2750,7 +2750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "BLT:JST_B2B-XH-A"
 			(at 64.77 97.79 0)
 			(effects
 				(font
@@ -2957,7 +2957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "BLT:JST_B2B-XH-A"
 			(at 64.77 133.35 0)
 			(effects
 				(font
@@ -3128,7 +3128,7 @@
 			(uuid "c1e015d4-6ddf-4220-a0d6-32c16380e8c3")
 		)
 		(instances
-			(project "BaseLine"
+			(project ""
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/e3080f39-1d26-4bce-b471-534f477eeea5"
 					(reference "#PWR0104")
 					(unit 1)
@@ -3362,7 +3362,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 109.474 74.676 90)
 			(effects
 				(font
@@ -3432,7 +3432,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" ""
 			(at 212.09 73.66 0)
 			(effects
 				(font
@@ -3472,7 +3472,7 @@
 			(uuid "9a0342a0-7329-4276-b3ad-717aad805d80")
 		)
 		(instances
-			(project "BaseLine"
+			(project ""
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/e3080f39-1d26-4bce-b471-534f477eeea5"
 					(reference "J17")
 					(unit 1)
@@ -3538,7 +3538,7 @@
 			(uuid "9863c641-52c7-4517-b75d-b60f17b4d9e7")
 		)
 		(instances
-			(project "BaseLine"
+			(project ""
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/e3080f39-1d26-4bce-b471-534f477eeea5"
 					(reference "#PWR0124")
 					(unit 1)
@@ -3637,7 +3637,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" ""
 			(at 108.204 90.424 90)
 			(effects
 				(font
@@ -3671,7 +3671,7 @@
 			(uuid "25fd34dd-7589-4687-8341-65a13bc678e2")
 		)
 		(instances
-			(project "BaseLine"
+			(project ""
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/e3080f39-1d26-4bce-b471-534f477eeea5"
 					(reference "R10")
 					(unit 1)
@@ -3706,7 +3706,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "BLT:JST_B2B-XH-A"
 			(at 64.77 80.01 0)
 			(effects
 				(font
@@ -3780,7 +3780,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
+		(property "Footprint" "BLT:JST_B2B-XH-A"
 			(at 64.77 115.57 0)
 			(effects
 				(font
