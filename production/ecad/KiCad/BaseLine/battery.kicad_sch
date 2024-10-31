@@ -6003,7 +6003,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "DNP"
 			(at 97.79 48.2599 0)
 			(effects
 				(font
@@ -6142,7 +6142,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0"
+		(property "Value" "DNP"
 			(at 97.79 39.3699 0)
 			(effects
 				(font
