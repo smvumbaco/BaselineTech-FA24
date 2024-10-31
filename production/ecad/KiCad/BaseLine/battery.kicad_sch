@@ -7892,7 +7892,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC127P600X150-9N"
+		(property "Footprint" "SOIC127P600X163-9N 2:SOIC127P600X163-9N"
 			(at 83.82 138.1 0)
 			(effects
 				(font
