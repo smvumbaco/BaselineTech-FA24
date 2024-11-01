@@ -6580,7 +6580,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CONN_B4B-XH-AM_JST:CONN_B4B-XH-AM_JST"
+		(property "Footprint" "JST_B2B-XH-A:JST_B2B-XH-A"
 			(at 259.08 114.3 0)
 			(effects
 				(font
