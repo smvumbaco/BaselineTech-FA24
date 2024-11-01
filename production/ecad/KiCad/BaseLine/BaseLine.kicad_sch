@@ -1240,7 +1240,7 @@
 			)
 		)
 	)
-	(global_label "MUX_CS_2"
+	(global_label "MUX_SELECT_1"
 		(shape input)
 		(at 184.15 45.72 0)
 		(fields_autoplaced yes)
@@ -1252,7 +1252,7 @@
 		)
 		(uuid "90766bf3-96f8-47d9-8042-c5eb9ac5d38c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.7508 45.72 0)
+			(at 201.0445 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1570,7 +1570,7 @@
 			)
 		)
 	)
-	(global_label "MUX_CS_1"
+	(global_label "MUX_SELECT_0"
 		(shape input)
 		(at 184.15 43.18 0)
 		(fields_autoplaced yes)
@@ -1582,7 +1582,7 @@
 		)
 		(uuid "f2703a6d-b1df-4a1a-9658-bf5f1855f664")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 196.7508 43.18 0)
+			(at 201.0445 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2900,7 +2900,7 @@
 			)
 			(uuid "72af3a11-69e2-4c5c-b830-99736a2340d0")
 		)
-		(pin "MUX_CS_2" output
+		(pin "MUX_SELECT_1" output
 			(at 180.34 45.72 0)
 			(effects
 				(font
@@ -2910,7 +2910,7 @@
 			)
 			(uuid "72578d80-2494-4644-9738-9ef4e97bab0f")
 		)
-		(pin "MUX_CS_1" output
+		(pin "MUX_SELECT_0" output
 			(at 180.34 43.18 0)
 			(effects
 				(font
