@@ -750,6 +750,142 @@
 				)
 			)
 		)
+		(symbol "Device:C"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -1333,6 +1469,16 @@
 	)
 	(wire
 		(pts
+			(xy 162.56 68.58) (xy 162.56 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b406ba-4adb-49e0-87e9-38020ae82a09")
+	)
+	(wire
+		(pts
 			(xy 104.14 91.44) (xy 104.14 92.71)
 		)
 		(stroke
@@ -1350,6 +1496,16 @@
 			(type default)
 		)
 		(uuid "4c77bb9d-a70d-44a2-b127-e422097d3168")
+	)
+	(wire
+		(pts
+			(xy 162.56 77.47) (xy 162.56 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fad0136-c05e-4e80-aba9-ab0d020ff234")
 	)
 	(wire
 		(pts
@@ -1717,7 +1873,7 @@
 			)
 		)
 	)
-	(global_label "MUX_CS_2"
+	(global_label "MUX_SELECT_1"
 		(shape input)
 		(at 127 88.9 180)
 		(fields_autoplaced yes)
@@ -1729,7 +1885,7 @@
 		)
 		(uuid "453cccce-95d1-46d6-af8f-7c478cd88a05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3992 88.9 0)
+			(at 110.1055 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2047,7 +2203,7 @@
 			)
 		)
 	)
-	(global_label "MUX_CS_1"
+	(global_label "MUX_SELECT_0"
 		(shape input)
 		(at 127 86.36 180)
 		(fields_autoplaced yes)
@@ -2059,7 +2215,7 @@
 		)
 		(uuid "9e4a1526-7d61-462f-9389-a1bf918f5ae8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3992 86.36 0)
+			(at 110.1055 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2614,7 +2770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CD74HC4067M96:SOIC127P1030X265-24N"
+		(property "Footprint" "SOIC127P1030X265-24:SOIC127P1030X265-24N"
 			(at 144.78 104.14 0)
 			(effects
 				(font
@@ -2866,7 +3022,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 162.56 78.74 0)
+		(at 162.56 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2875,7 +3031,7 @@
 		(fields_autoplaced yes)
 		(uuid "29005d85-9e6f-481e-ae3d-9b0e82661582")
 		(property "Reference" "#PWR0100"
-			(at 162.56 82.55 0)
+			(at 162.56 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2884,7 +3040,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 162.56 73.66 0)
+			(at 162.56 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2892,7 +3048,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 78.74 0)
+			(at 162.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2901,7 +3057,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 78.74 0)
+			(at 162.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2910,7 +3066,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 162.56 78.74 0)
+			(at 162.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3606,6 +3762,76 @@
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/e3080f39-1d26-4bce-b471-534f477eeea5"
 					(reference "#PWR0125")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 162.56 73.66 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dfeddaa9-593b-4a1b-9a0f-b5d8acf39a1a")
+		(property "Reference" "C8"
+			(at 166.37 72.3899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 166.37 74.9299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 163.5252 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 162.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 162.56 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c8d41496-48cf-47b8-aab5-a99cbfe24b22")
+		)
+		(pin "2"
+			(uuid "8b88a569-198f-4234-8afc-e8c9c36c51f6")
+		)
+		(instances
+			(project "BaseLine"
+				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/e3080f39-1d26-4bce-b471-534f477eeea5"
+					(reference "C8")
 					(unit 1)
 				)
 			)
