@@ -7170,7 +7170,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MF-PSML125_6-2:FUSE_MF-PSML125_6-2"
+		(property "Footprint" "MF-PSML125_6-2-2:FUSE_MF-PSML125_6-2"
 			(at 133.35 50.8 0)
 			(effects
 				(font
@@ -9469,7 +9469,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "MF-PSML125_6-2:FUSE_MF-PSML125_6-2"
+		(property "Footprint" "MF-PSML125_6-2-2:FUSE_MF-PSML125_6-2"
 			(at 146.05 90.17 0)
 			(effects
 				(font
