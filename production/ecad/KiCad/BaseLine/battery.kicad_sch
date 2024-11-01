@@ -3424,12 +3424,6 @@
 		(uuid "95a1d520-944b-4be9-866f-f0ac32bac4cd")
 	)
 	(junction
-		(at 72.39 66.04)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "98826257-b741-43be-982e-f0444e25b26e")
-	)
-	(junction
 		(at 123.19 50.8)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3881,7 +3875,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 66.04) (xy 72.39 69.85)
+			(xy 72.39 63.5) (xy 72.39 69.85)
 		)
 		(stroke
 			(width 0)
@@ -4929,16 +4923,6 @@
 		)
 		(uuid "f92f943a-feb4-432a-bde7-ca110ab32c0d")
 	)
-	(wire
-		(pts
-			(xy 72.39 63.5) (xy 72.39 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe62e1ba-e904-462f-a1dc-8eee3cb19f7b")
-	)
 	(text "1 & 4 are pin C (power)\n2 is NC\n3 is NO\n5 is green led\n6 is blue led\n7 is red led"
 		(exclude_from_sim no)
 		(at 245.618 34.29 0)
@@ -5439,73 +5423,6 @@
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/31f727a4-3278-43bf-88f9-c0e8e93f0a52"
 					(reference "#PWR093")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 72.39 66.04 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "133bbc13-38ac-474f-8995-673b22982147")
-		(property "Reference" "TP11"
-			(at 77.47 64.7699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 77.47 67.3099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_2.0x2.0mm"
-			(at 72.39 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 72.39 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 72.39 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ffe44406-9f07-451a-8082-0d3bd2c52a24")
-		)
-		(instances
-			(project "BaseLine"
-				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/31f727a4-3278-43bf-88f9-c0e8e93f0a52"
-					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -6618,7 +6535,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "schotkey:DO-41_STM"
 			(at 115.57 124.46 0)
 			(effects
 				(font
