@@ -1479,16 +1479,6 @@
 	)
 	(wire
 		(pts
-			(xy 125.73 86.36) (xy 127 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "362a5650-a845-4b00-95f5-7e834bd57cf8")
-	)
-	(wire
-		(pts
 			(xy 104.14 91.44) (xy 104.14 92.71)
 		)
 		(stroke
@@ -1556,16 +1546,6 @@
 			(type default)
 		)
 		(uuid "69207b93-8511-4497-a9f1-1f4485d29000")
-	)
-	(wire
-		(pts
-			(xy 125.73 88.9) (xy 127 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7682c60f-80fd-4042-8a59-ee6192ae9a09")
 	)
 	(wire
 		(pts
@@ -1894,8 +1874,8 @@
 		)
 	)
 	(global_label "MUX_SELECT_1"
-		(shape output)
-		(at 125.73 88.9 180)
+		(shape input)
+		(at 127 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1905,7 +1885,7 @@
 		)
 		(uuid "453cccce-95d1-46d6-af8f-7c478cd88a05")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.8355 88.9 0)
+			(at 110.1055 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1981,7 +1961,7 @@
 			)
 		)
 	)
-	(global_label "MUX_SELECT_1"
+	(global_label "MUX_CS_2"
 		(shape input)
 		(at 83.82 27.94 180)
 		(fields_autoplaced yes)
@@ -1993,7 +1973,7 @@
 		)
 		(uuid "4dd1e44e-0cb7-4793-960d-2d877a2b23ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.9255 27.94 0)
+			(at 71.2192 27.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2224,8 +2204,8 @@
 		)
 	)
 	(global_label "MUX_SELECT_0"
-		(shape output)
-		(at 125.73 86.36 180)
+		(shape input)
+		(at 127 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2235,7 +2215,7 @@
 		)
 		(uuid "9e4a1526-7d61-462f-9389-a1bf918f5ae8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 108.8355 86.36 0)
+			(at 110.1055 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2377,7 +2357,7 @@
 			)
 		)
 	)
-	(global_label "MUX_SELECT_0"
+	(global_label "MUX_CS_1"
 		(shape input)
 		(at 83.82 22.86 180)
 		(fields_autoplaced yes)
@@ -2389,7 +2369,7 @@
 		)
 		(uuid "cd3e7419-4502-4039-8931-86bab39b6e7f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 66.9255 22.86 0)
+			(at 71.2192 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2499,7 +2479,7 @@
 		)
 		(uuid "00c3a334-1f59-446c-a4a7-648f9b1d09a5")
 	)
-	(hierarchical_label "MUX_SELECT_1"
+	(hierarchical_label "MUX_CS_2"
 		(shape input)
 		(at 90.17 27.94 0)
 		(fields_autoplaced yes)
@@ -2571,7 +2551,7 @@
 		)
 		(uuid "3cc47541-98cc-4ed1-8432-cadcb3c7e5ed")
 	)
-	(hierarchical_label "MUX_SELECT_0"
+	(hierarchical_label "MUX_CS_1"
 		(shape input)
 		(at 90.17 22.86 0)
 		(fields_autoplaced yes)

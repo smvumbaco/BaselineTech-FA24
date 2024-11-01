@@ -7026,7 +7026,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CSTAR-MainBoard-Footprints:SW_1825910-6-4"
+		(property "Footprint" "1825910_6:SW_1825910-6-4"
 			(at 161.29 181.61 0)
 			(effects
 				(font
@@ -9108,7 +9108,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CP2102N-A02-GQFN28:QFN50P500X500X80-29N"
+		(property "Footprint" "CP2102N_A02_GQFN28:QFN50P500X500X80-29N"
 			(at 218.44 73.66 0)
 			(effects
 				(font
@@ -9368,7 +9368,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CSTAR-MainBoard-Footprints:SW_1825910-6-4"
+		(property "Footprint" "1825910_6:SW_1825910-6-4"
 			(at 115.57 177.8 0)
 			(effects
 				(font
