@@ -2005,6 +2005,28 @@
 			)
 		)
 	)
+	(global_label "MUX_CS_2"
+		(shape input)
+		(at 83.82 27.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4dd1e44e-0cb7-4793-960d-2d877a2b23ec")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.2192 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DATA_LOADCELL"
 		(shape output)
 		(at 83.82 33.02 180)
@@ -2379,6 +2401,28 @@
 			)
 		)
 	)
+	(global_label "MUX_CS_1"
+		(shape input)
+		(at 83.82 22.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd3e7419-4502-4039-8931-86bab39b6e7f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 71.2192 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DOUT_0"
 		(shape output)
 		(at 69.85 77.47 0)
@@ -2479,7 +2523,7 @@
 		)
 		(uuid "00c3a334-1f59-446c-a4a7-648f9b1d09a5")
 	)
-	(hierarchical_label "MUX_SELECT_1"
+	(hierarchical_label "MUX_CS_2"
 		(shape input)
 		(at 90.17 27.94 0)
 		(fields_autoplaced yes)
@@ -2551,7 +2595,7 @@
 		)
 		(uuid "3cc47541-98cc-4ed1-8432-cadcb3c7e5ed")
 	)
-	(hierarchical_label "MUX_SELECT_0"
+	(hierarchical_label "MUX_CS_1"
 		(shape input)
 		(at 90.17 22.86 0)
 		(fields_autoplaced yes)
