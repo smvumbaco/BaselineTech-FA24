@@ -4396,7 +4396,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DRV8830DGQR:IC_XTR111AIDGQR"
+		(property "Footprint" "IC_XTR111AIDGQR:IC_XTR111AIDGQR"
 			(at 190.5 115.57 0)
 			(effects
 				(font
@@ -4886,7 +4886,7 @@
 				)
 			)
 		)
-		(property "Footprint" "DRV8830DGQR:IC_XTR111AIDGQR"
+		(property "Footprint" "CONN_B4B-XH-AM_JST:CONN_B4B-XH-AM_JST"
 			(at 190.5 53.34 0)
 			(effects
 				(font
@@ -5857,7 +5857,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BLT:JST_B2B-XH-A"
+		(property "Footprint" "JST_B2B-XH-A:JST_B2B-XH-A"
 			(at 259.08 52.07 0)
 			(effects
 				(font
@@ -6458,7 +6458,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "BLT:JST_B2B-XH-A"
+		(property "Footprint" "CONN_B4B-XH-AM_JST:CONN_B4B-XH-AM_JST"
 			(at 259.08 114.3 0)
 			(effects
 				(font
