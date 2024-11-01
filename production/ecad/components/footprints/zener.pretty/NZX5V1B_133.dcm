@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NZX5V1B,133
+D Zener Diodes Diode Zener Single 5V 2% 500mW 2-Pin
+K
+F https://assets.nexperia.com/documents/data-sheet/NZX_SER.pdf
+$ENDCMP
+#
+#End Doc Library

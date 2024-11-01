@@ -8022,7 +8022,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0805_2012Metric_Pad1.15x1.40mm_HandSolder"
+		(property "Footprint" "zener:DIOAD1165W56L425D185"
 			(at 151.13 121.92 0)
 			(effects
 				(font
