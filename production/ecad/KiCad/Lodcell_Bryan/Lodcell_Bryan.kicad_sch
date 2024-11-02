@@ -850,6 +850,108 @@
 				)
 			)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.762) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 5.08 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:TestPoint_2Pole"
 			(pin_names
 				(offset 0.762) hide)
@@ -2206,6 +2308,12 @@
 		(uuid "162c8c7e-05da-4595-b3ca-c24b570ec284")
 	)
 	(junction
+		(at 270.51 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "18e565fb-58cb-4155-93ee-eaea4dd3d42b")
+	)
+	(junction
 		(at 54.61 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2260,6 +2368,12 @@
 		(uuid "8edfdde5-aa0f-4bf4-a1e1-75878c78d7c0")
 	)
 	(junction
+		(at 205.74 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "97048daf-03f6-469a-ae37-d5ce6e0e9340")
+	)
+	(junction
 		(at 261.62 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2288,6 +2402,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "efbe8441-3cf1-4025-8348-8c3e03b53c73")
+	)
+	(junction
+		(at 257.81 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f59a8600-7b83-4bab-a88f-ae03f923fabb")
 	)
 	(wire
 		(pts
@@ -2361,6 +2481,16 @@
 	)
 	(wire
 		(pts
+			(xy 205.74 82.55) (xy 220.98 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fe71ac7-0919-4a9e-9567-820e97221b38")
+	)
+	(wire
+		(pts
 			(xy 105.41 83.82) (xy 128.27 83.82)
 		)
 		(stroke
@@ -2431,6 +2561,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 77.47) (xy 271.78 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ea1b6ca-7bfa-40ec-9dbb-811e743bf804")
+	)
+	(wire
+		(pts
 			(xy 54.61 92.71) (xy 95.25 92.71)
 		)
 		(stroke
@@ -2448,6 +2588,16 @@
 			(type default)
 		)
 		(uuid "22f2a913-0303-4d59-9712-f789b555b1f5")
+	)
+	(wire
+		(pts
+			(xy 270.51 73.66) (xy 270.51 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23961a4e-5ea0-4485-9a4f-6aff585e0aae")
 	)
 	(wire
 		(pts
@@ -2498,16 +2648,6 @@
 			(type default)
 		)
 		(uuid "2f42f8c0-ac7f-4bbb-986c-e890a02a480a")
-	)
-	(wire
-		(pts
-			(xy 257.81 80.01) (xy 257.81 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "332281a9-d50b-496e-b9ac-bb96471b081a")
 	)
 	(wire
 		(pts
@@ -2581,7 +2721,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 82.55) (xy 220.98 82.55)
+			(xy 170.18 82.55) (xy 205.74 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2951,6 +3091,16 @@
 	)
 	(wire
 		(pts
+			(xy 257.81 76.2) (xy 257.81 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9542566d-ace4-44b2-bc2d-4cb5857ba21e")
+	)
+	(wire
+		(pts
 			(xy 217.17 101.6) (xy 220.98 101.6)
 		)
 		(stroke
@@ -3091,16 +3241,6 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 81.28) (xy 270.51 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c5b67dab-ee33-4ae8-9a31-6fbc8c03a2c3")
-	)
-	(wire
-		(pts
 			(xy 217.17 90.17) (xy 168.91 90.17)
 		)
 		(stroke
@@ -3161,6 +3301,16 @@
 	)
 	(wire
 		(pts
+			(xy 270.51 77.47) (xy 270.51 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea195e0e-f3a8-496c-99e9-68f571a49bbe")
+	)
+	(wire
+		(pts
 			(xy 217.17 101.6) (xy 217.17 105.41)
 		)
 		(stroke
@@ -3178,6 +3328,16 @@
 			(type default)
 		)
 		(uuid "f174599d-74dc-473f-a92f-87e25e5e1ac6")
+	)
+	(wire
+		(pts
+			(xy 257.81 72.39) (xy 257.81 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1970a2e-a47a-4cab-ab9d-82f96dc746f5")
 	)
 	(wire
 		(pts
@@ -3630,6 +3790,73 @@
 			(project "Lodcell_Bryan"
 				(path "/3f57d594-36f2-42e1-9017-f4e9011de5a2"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 205.74 82.55 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "10f4f6c6-9f9d-4cc5-b0da-d56e5073f081")
+		(property "Reference" "TP2"
+			(at 208.28 77.9779 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPad_DOUT"
+			(at 208.28 80.5179 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 210.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 210.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 205.74 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1adc0e2b-6538-4539-9a4f-2ad0c171a861")
+		)
+		(instances
+			(project "Lodcell_Bryan"
+				(path "/3f57d594-36f2-42e1-9017-f4e9011de5a2"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -4097,6 +4324,76 @@
 	)
 	(symbol
 		(lib_id "Device:C")
+		(at 261.62 76.2 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3360fd4d-36b5-4c95-bd52-2fa1053fe77b")
+		(property "Reference" "C5"
+			(at 259.334 75.946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 263.652 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 257.81 75.2348 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 261.62 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 261.62 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "64b3a471-37e8-41f1-9748-43109793ab78")
+		)
+		(pin "2"
+			(uuid "edd470fb-ec9e-488f-8adf-c0143056f3f1")
+		)
+		(instances
+			(project "Lodcell_Bryan"
+				(path "/3f57d594-36f2-42e1-9017-f4e9011de5a2"
+					(reference "C5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
 		(at 119.38 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4227,76 +4524,6 @@
 			(project "Lodcell_Bryan"
 				(path "/3f57d594-36f2-42e1-9017-f4e9011de5a2"
 					(reference "TP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 270.51 77.47 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3d94ac1a-3712-4768-bb50-575d8ce336b8")
-		(property "Reference" "C6"
-			(at 270.764 75.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 270.764 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 271.4752 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 270.51 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 270.51 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "14f8e78f-cde5-487a-9c05-3281605df247")
-		)
-		(pin "2"
-			(uuid "12437230-fdbf-4232-9174-a87c490f6efa")
-		)
-		(instances
-			(project "Lodcell_Bryan"
-				(path "/3f57d594-36f2-42e1-9017-f4e9011de5a2"
-					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -4571,6 +4798,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 279.4 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "529e78ba-148a-4253-b853-4b33fbe17a4e")
+		(property "Reference" "#PWR03"
+			(at 279.4 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 279.4 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 279.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 279.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9a12519a-0674-48e5-b611-4f23dc403a1b")
+		)
+		(instances
+			(project "Lodcell_Bryan"
+				(path "/3f57d594-36f2-42e1-9017-f4e9011de5a2"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 105.41 179.07 0)
 		(unit 1)
@@ -4761,6 +5054,72 @@
 			(project "Lodcell_Bryan"
 				(path "/3f57d594-36f2-42e1-9017-f4e9011de5a2"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 265.43 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "723cc145-f8a2-4866-b5cd-a8567806424a")
+		(property "Reference" "#PWR04"
+			(at 265.43 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 265.43 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 265.43 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 265.43 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 265.43 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "832a8e56-d37f-4ed3-8b1a-5351455454ea")
+		)
+		(instances
+			(project "Lodcell_Bryan"
+				(path "/3f57d594-36f2-42e1-9017-f4e9011de5a2"
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5173,6 +5532,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 275.59 77.47 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b420b366-e283-42ee-91df-dd937ae101e8")
+		(property "Reference" "C6"
+			(at 273.304 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1u"
+			(at 278.13 77.216 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 271.78 76.5048 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 275.59 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 275.59 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "85cdf308-561a-4fa2-867d-b929ad7525df")
+		)
+		(pin "2"
+			(uuid "713955e7-e78a-444f-a51c-67cf2e648a4b")
+		)
+		(instances
+			(project "Lodcell_Bryan"
+				(path "/3f57d594-36f2-42e1-9017-f4e9011de5a2"
+					(reference "C6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
 		(at 182.88 27.94 0)
 		(unit 1)
@@ -5240,76 +5669,6 @@
 			(project "Lodcell_Bryan"
 				(path "/3f57d594-36f2-42e1-9017-f4e9011de5a2"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 257.81 76.2 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "bc76178a-5235-4815-8cf2-0b4046802c9d")
-		(property "Reference" "C5"
-			(at 258.064 73.914 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1u"
-			(at 257.81 78.232 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 258.7752 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 257.81 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 257.81 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9cc6d9f9-419b-4359-8e71-c794e80118a4")
-		)
-		(pin "2"
-			(uuid "aa7b71bc-6854-4692-a9dd-c576cceeba67")
-		)
-		(instances
-			(project "Lodcell_Bryan"
-				(path "/3f57d594-36f2-42e1-9017-f4e9011de5a2"
-					(reference "C5")
 					(unit 1)
 				)
 			)
