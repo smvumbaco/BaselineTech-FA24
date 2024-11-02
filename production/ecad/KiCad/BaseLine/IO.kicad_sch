@@ -1418,12 +1418,6 @@
 		(uuid "69d89a9b-6e39-48a3-bb62-9dd43dfce5d7")
 	)
 	(junction
-		(at 162.56 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "73c67f56-7fdf-4f9c-b7e2-537879e2978e")
-	)
-	(junction
 		(at 168.91 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1544,6 +1538,16 @@
 			(type default)
 		)
 		(uuid "2930700c-f583-4b1f-8c28-647f2b1be006")
+	)
+	(wire
+		(pts
+			(xy 162.56 68.58) (xy 162.56 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31b406ba-4adb-49e0-87e9-38020ae82a09")
 	)
 	(wire
 		(pts
@@ -1687,16 +1691,6 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 69.85) (xy 162.56 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b057020-2a2c-4761-a462-8fa8fe3ed3f6")
-	)
-	(wire
-		(pts
 			(xy 120.65 121.92) (xy 127 121.92)
 		)
 		(stroke
@@ -1764,16 +1758,6 @@
 			(type default)
 		)
 		(uuid "8b0d9852-b92d-4bd9-b914-bb6816fadac3")
-	)
-	(wire
-		(pts
-			(xy 170.18 77.47) (xy 171.45 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8f597a08-7b13-4656-9e6b-02b8c2a273a1")
 	)
 	(wire
 		(pts
@@ -3290,7 +3274,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 162.56 69.85 0)
+		(at 162.56 68.58 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3299,7 +3283,7 @@
 		(fields_autoplaced yes)
 		(uuid "29005d85-9e6f-481e-ae3d-9b0e82661582")
 		(property "Reference" "#PWR0100"
-			(at 162.56 73.66 0)
+			(at 162.56 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3308,7 +3292,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 162.56 64.77 0)
+			(at 162.56 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3316,7 +3300,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 69.85 0)
+			(at 162.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3325,7 +3309,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 69.85 0)
+			(at 162.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3334,7 +3318,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 162.56 69.85 0)
+			(at 162.56 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,71 +4088,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 171.45 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cbceb445-6d79-4aec-9ccb-25a6a4049fec")
-		(property "Reference" "#PWR033"
-			(at 171.45 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 171.704 81.534 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 171.45 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 171.45 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 171.45 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e16e3141-c266-4eec-835d-36a538b001d2")
-		)
-		(instances
-			(project "BaseLine"
-				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/e3080f39-1d26-4bce-b471-534f477eeea5"
-					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 104.14 92.71 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -4234,7 +4153,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 166.37 77.47 90)
+		(at 162.56 73.66 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4243,23 +4162,25 @@
 		(fields_autoplaced yes)
 		(uuid "dfeddaa9-593b-4a1b-9a0f-b5d8acf39a1a")
 		(property "Reference" "C8"
-			(at 166.37 69.85 90)
+			(at 166.37 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Value" "0.1u"
-			(at 166.37 72.39 90)
+			(at 166.37 74.9299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 170.18 76.5048 0)
+			(at 163.5252 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4268,7 +4189,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 166.37 77.47 0)
+			(at 162.56 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4277,7 +4198,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 166.37 77.47 0)
+			(at 162.56 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)

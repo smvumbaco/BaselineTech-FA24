@@ -9954,16 +9954,14 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "f3aa27b9-13cf-41f3-8945-ca450b04a3c3")
 		(property "Reference" "C25"
-			(at 50.8 55.8799 0)
+			(at 50.8 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
 		(property "Value" "1uF"
