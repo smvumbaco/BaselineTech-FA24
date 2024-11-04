@@ -3823,7 +3823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 210.82 82.55 0)
 			(effects
 				(font
