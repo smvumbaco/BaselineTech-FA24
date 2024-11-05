@@ -3502,6 +3502,12 @@
 		(uuid "e375b04b-de11-4b9a-b889-df13e124c18a")
 	)
 	(junction
+		(at 238.76 49.53)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efa250dc-a4d5-429d-9e2e-f4e36138245e")
+	)
+	(junction
 		(at 232.41 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3902,6 +3908,16 @@
 			(type default)
 		)
 		(uuid "452adcbc-c750-4cba-9f43-6675c5752c67")
+	)
+	(wire
+		(pts
+			(xy 238.76 48.26) (xy 238.76 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45ef6829-5f2e-4dda-8af6-27a55c732f81")
 	)
 	(wire
 		(pts
@@ -4635,6 +4651,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 49.53) (xy 248.92 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8ae4267-8cda-40ee-accb-39e3d4a505a1")
+	)
+	(wire
+		(pts
 			(xy 91.44 45.72) (xy 91.44 48.26)
 		)
 		(stroke
@@ -4785,7 +4811,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 49.53) (xy 248.92 49.53)
+			(xy 232.41 49.53) (xy 238.76 49.53)
 		)
 		(stroke
 			(width 0)
@@ -9353,6 +9379,72 @@
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/31f727a4-3278-43bf-88f9-c0e8e93f0a52"
 					(reference "#PWR035")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 238.76 48.26 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c626538c-5186-451c-b506-cdfe54431958")
+		(property "Reference" "#PWR034"
+			(at 238.76 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.7V"
+			(at 238.76 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 238.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 238.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 238.76 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb9cb68c-159a-4d93-a949-906b440f7ec0")
+		)
+		(instances
+			(project "BaseLine"
+				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/31f727a4-3278-43bf-88f9-c0e8e93f0a52"
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
