@@ -9558,7 +9558,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.7V"
+		(property "Value" "Battery3.7"
 			(at 238.76 43.18 0)
 			(effects
 				(font
