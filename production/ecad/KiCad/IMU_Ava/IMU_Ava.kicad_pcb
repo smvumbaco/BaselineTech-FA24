@@ -565,7 +565,7 @@
 		(descr "JST EH series connector, S4B-EH (http://www.jst-mfg.com/product/pdf/eng/eEH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST EH horizontal")
 		(property "Reference" "J1"
-			(at 3.68 -4.91 0)
+			(at 12.22 -0.19 0)
 			(layer "F.SilkS")
 			(uuid "7282bfcd-cbc1-423a-801d-7ac35751a299")
 			(effects
