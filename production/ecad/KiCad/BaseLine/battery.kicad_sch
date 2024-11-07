@@ -3661,7 +3661,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 50.8) (xy 203.2 50.8)
+			(xy 181.61 50.8) (xy 191.77 50.8)
 		)
 		(stroke
 			(width 0)
@@ -3758,6 +3758,16 @@
 			(type default)
 		)
 		(uuid "2cdbae03-5ba4-42d4-bb45-bec427787f74")
+	)
+	(wire
+		(pts
+			(xy 190.5 36.83) (xy 187.96 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2db2fe4c-580c-41c1-a779-3df68f8a721e")
 	)
 	(wire
 		(pts
@@ -4311,7 +4321,7 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 36.83) (xy 187.96 36.83)
+			(xy 227.33 36.83) (xy 198.12 36.83)
 		)
 		(stroke
 			(width 0)
@@ -4638,6 +4648,16 @@
 			(type default)
 		)
 		(uuid "c0766ff9-b128-49e6-bf61-6b12469cb008")
+	)
+	(wire
+		(pts
+			(xy 199.39 50.8) (xy 203.2 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0d0a54e-e5b9-44e4-b233-0844417d0340")
 	)
 	(wire
 		(pts
@@ -5780,6 +5800,73 @@
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/31f727a4-3278-43bf-88f9-c0e8e93f0a52"
 					(reference "R42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 194.31 36.83 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "29a25672-bbaf-4965-999d-f11fed88b4bf")
+		(property "Reference" "R30"
+			(at 197.866 40.386 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 194.31 40.64 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 194.31 35.052 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 194.31 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 194.31 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "849f9d8d-9179-4837-8e25-7639725b1e12")
+		)
+		(pin "2"
+			(uuid "f3767d56-977f-4c7f-bd7c-cc57d14648c7")
+		)
+		(instances
+			(project "BaseLine"
+				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/31f727a4-3278-43bf-88f9-c0e8e93f0a52"
+					(reference "R30")
 					(unit 1)
 				)
 			)
@@ -7337,6 +7424,74 @@
 			(project "BaseLine"
 				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/31f727a4-3278-43bf-88f9-c0e8e93f0a52"
 					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 195.58 50.8 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73cd1b94-0fc4-452f-81dc-29b4abc402df")
+		(property "Reference" "R16"
+			(at 195.58 57.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0"
+			(at 195.58 54.61 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 195.58 49.022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 195.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 195.58 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "92107f8e-4ff9-47dc-8e24-b27233ce328a")
+		)
+		(pin "2"
+			(uuid "af1a8c3d-91ef-4123-8e35-55be8345b056")
+		)
+		(instances
+			(project "BaseLine"
+				(path "/ba9eda21-3882-41e1-8265-3d8ac781da20/31f727a4-3278-43bf-88f9-c0e8e93f0a52"
+					(reference "R16")
 					(unit 1)
 				)
 			)
