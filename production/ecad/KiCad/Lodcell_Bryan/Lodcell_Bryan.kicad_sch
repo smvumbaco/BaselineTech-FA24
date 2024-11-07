@@ -3737,7 +3737,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0e5a609f-e1b7-4fc2-90b7-cb96f88713f6")
-		(property "Reference" "R4"
+		(property "Reference" "R3"
 			(at 52.07 189.738 90)
 			(effects
 				(font
@@ -3789,7 +3789,7 @@
 		(instances
 			(project "Lodcell_Bryan"
 				(path "/3f57d594-36f2-42e1-9017-f4e9011de5a2"
-					(reference "R4")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -4936,7 +4936,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5a333f1b-301b-4017-b230-9d29d97a265c")
-		(property "Reference" "R1"
+		(property "Reference" "R4"
 			(at 41.91 165.608 90)
 			(effects
 				(font
@@ -4988,7 +4988,7 @@
 		(instances
 			(project "Lodcell_Bryan"
 				(path "/3f57d594-36f2-42e1-9017-f4e9011de5a2"
-					(reference "R1")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -5879,7 +5879,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "c49d0ca3-8f4b-462a-918e-c8e643b3b33d")
-		(property "Reference" "R2"
+		(property "Reference" "R1"
 			(at 35.56 149.098 90)
 			(effects
 				(font
@@ -5931,7 +5931,7 @@
 		(instances
 			(project "Lodcell_Bryan"
 				(path "/3f57d594-36f2-42e1-9017-f4e9011de5a2"
-					(reference "R2")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6561,7 +6561,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f20dcdff-2c11-4de8-b2c4-fdf6a8d1b2e8")
-		(property "Reference" "R3"
+		(property "Reference" "R2"
 			(at 46.99 173.99 90)
 			(effects
 				(font
@@ -6613,7 +6613,7 @@
 		(instances
 			(project "Lodcell_Bryan"
 				(path "/3f57d594-36f2-42e1-9017-f4e9011de5a2"
-					(reference "R3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
