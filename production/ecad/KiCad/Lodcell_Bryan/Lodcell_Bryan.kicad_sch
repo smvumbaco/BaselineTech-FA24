@@ -4040,7 +4040,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+		(property "Footprint" "MountingHole:MountingHole_4.5mm"
 			(at 82.55 172.72 0)
 			(effects
 				(font
@@ -4557,7 +4557,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+		(property "Footprint" "MountingHole:MountingHole_4.5mm"
 			(at 105.41 172.72 0)
 			(effects
 				(font
@@ -4891,7 +4891,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+		(property "Footprint" "MountingHole:MountingHole_4.5mm"
 			(at 105.41 179.07 0)
 			(effects
 				(font
@@ -5429,7 +5429,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_2.5mm"
+		(property "Footprint" "MountingHole:MountingHole_4.5mm"
 			(at 82.55 179.07 0)
 			(effects
 				(font
