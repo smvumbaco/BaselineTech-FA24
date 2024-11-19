@@ -1,4 +1,4 @@
-const int PIN_CS = 11;
+const int PIN_CS = 4;
 const int PIN_CLOCK = 6;
 const int PIN_DATA = 7;
 

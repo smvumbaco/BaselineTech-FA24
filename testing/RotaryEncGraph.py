@@ -1,58 +1,82 @@
 import serial
 import time
+import sys
 import matplotlib.pyplot as plt
 from matplotlib.animation import FuncAnimation
-import numpy as np
+from collections import deque
+import threading
 
 # Set up the serial connection
 try:
-    ser = serial.Serial('/dev/ttyUSB0', 115200, timeout=1)  # Update port as needed
+    ser = serial.Serial('/dev/tty.usbmodem14301', 115200, timeout=1)  # Update port as needed
     time.sleep(2)
 except serial.SerialException as e:
     print(f"Error: Could not open serial port. {e}")
     sys.exit(1)
 
-# Initialize lists to hold data
-x_data = []
-y_data = []
+# Shared data buffers
+x_data = deque(maxlen=500)
+y_data = deque(maxlen=500)
 start_time = time.time()
+running = True  # Flag to control the serial thread
 
 # Define the pitch factor to simulate how pitch impacts speed
-pitch_factor = 1.0  # Adjust this as needed to simulate snowboard pitch impact
+pitch_factor = 1.0
 
-# Function to update the y-axis based on pitch
-def calculate_y_value(time_elapsed):
-    # Example: y = pitch_factor * time_elapsed, you can add complexity here
-    return pitch_factor * time_elapsed
+# Function to calculate y-axis value
+#def calculate_y_value(time_elapsed):
+    #return pitch_factor * time_elapsed
 
-# Function to update the plot in real-time
+# Serial reading in a separate thread
+def read_serial():
+    while running:  # Keep reading while the program is running
+        if ser.in_waiting > 0:
+            try:
+                line = ser.readline().decode('utf-8').strip()
+                if line.isdigit():
+                    raw_value = int(line)
+                    x_data.append(raw_value)
+                    #y_data.append(calculate_y_value(time.time() - start_time))
+                    y_data.append(time.time() - start_time)
+            except Exception as e:
+                if running:  # Only print errors if the program is still running
+                    print(f"Error reading serial data: {e}")
+
+# Start the serial reading thread
+serial_thread = threading.Thread(target=read_serial, daemon=True)
+serial_thread.start()
+
+# Function to update the plot
 def update(frame):
-    if ser.in_waiting > 0:  # Check if there is data waiting in the serial buffer
-        line = ser.readline().decode('utf-8').strip()
-        if line.isdigit():
-            raw_value = int(line)
-            x_value = raw_value  # Set raw sensor value as x-axis value
-            y_value = calculate_y_value(time.time() - start_time)  # Calculate based on pitch
+    x_data_plot = list(x_data)[-50:]  # Last 50 points
+    y_data_plot = list(y_data)[-50:]
 
-            x_data.append(x_value)
-            y_data.append(y_value)
+    if len(x_data_plot) > 0 and len(y_data_plot) > 0:
+        ax.clear()
+        ax.plot(x_data_plot, y_data_plot, label="Simulated Snowboard Location")
+        ax.set_title("Real-Time Snowboard Simulation")
+        ax.set_xlabel("Left-Right Position (X-axis)")
+        ax.set_ylabel("Speed based on Pitch (Y-axis)")
+        ax.set_xlim(0, 1050)  # Fixed x-axis range        
+        ax.legend()
+        ax.grid()
 
-            x_data_plot = x_data[-50:]
-            y_data_plot = y_data[-50:]
-
-            ax.clear()
-            ax.plot(x_data_plot, y_data_plot, label="Simulated Snowboard Speed")
-            ax.set_title("Real-Time Snowboard Simulation")
-            ax.set_xlabel("Left-Right Position (X-axis)")
-            ax.set_ylabel("Speed based on Pitch (Y-axis)")
-            ax.legend()
-            ax.grid()
+# Function to safely close the serial port and stop the thread
+def close_serial():
+    global running
+    running = False  # Signal the thread to stop
+    serial_thread.join()  # Wait for the thread to finish
+    ser.close()  # Close the serial port
+    print("Serial port closed.")
 
 # Set up the plot
 fig, ax = plt.subplots()
-ani = FuncAnimation(fig, update, interval=10)  # Update every 10ms
+ani = FuncAnimation(fig, update, interval=1*pitch_factor)    #update every 1ms
+
+# Hook into the closing event of the plot
+def on_close(event):
+    close_serial()  # Clean up when the plot window is closed
+
+fig.canvas.mpl_connect('close_event', on_close)
 
 plt.show()
-
-# Close the serial connection when done
-ser.close()
