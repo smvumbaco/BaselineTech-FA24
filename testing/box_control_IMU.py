@@ -2,13 +2,14 @@ import pygame
 from pygame.locals import *
 import serial
 import math
+import struct
 
 # Serial connection setup
-ser = serial.Serial('/dev/tty.usbmodem14301', 38400, timeout=1)  # Update port if necessary
+ser = serial.Serial('/dev/tty.usbmodem14101', 38400, timeout=1)  # Update port if necessary
 
-# Global variables
-ax = ay = az = 0.0
-yaw_mode = False
+# Global variables for IMU data
+ax = ay = az = 0.0  # Accelerometer axes
+yaw_mode = False    # Toggle for yaw data display
 
 # Screen dimensions
 SCREEN_WIDTH = 640
@@ -16,64 +17,61 @@ SCREEN_HEIGHT = 480
 CENTER_X = SCREEN_WIDTH // 2
 CENTER_Y = SCREEN_HEIGHT // 2
 
-def draw_cube(screen, pitch, roll, yaw):
-    # Define cube corners in 3D space
-    size = 50  # Cube size
-    points = [
-        [-size, -size, -size],
-        [size, -size, -size],
-        [size, size, -size],
-        [-size, size, -size],
-        [-size, -size, size],
-        [size, -size, size],
-        [size, size, size],
-        [-size, size, size]
+# Scaling factors for accelerometer and gyroscope data
+ACCEL_SCALE = 1 / 16384.0  # Example for ±2g range
+GYRO_SCALE = 1 / 131.0     # Example for ±250°/s range
+
+def draw_rectangle(screen, pitch, roll, yaw):
+    """
+    Draws a rectangle rotated based on IMU pitch, roll, and yaw data.
+    """
+    width, height = 200, 100  # Rectangle dimensions
+    color = (255, 255, 255)  # Rectangle color
+
+    # Calculate rotation using yaw (rotation around Z-axis for 2D visualization)
+    rect_points = [
+        [-width / 2, -height / 2],
+        [width / 2, -height / 2],
+        [width / 2, height / 2],
+        [-width / 2, height / 2]
     ]
 
-    # Apply rotations based on pitch, roll, and yaw
     rotated_points = []
-    for x, y, z in points:
-        # Rotate around X-axis (pitch)
-        x1 = x
-        y1 = y * math.cos(math.radians(pitch)) - z * math.sin(math.radians(pitch))
-        z1 = y * math.sin(math.radians(pitch)) + z * math.cos(math.radians(pitch))
+    for x, y in rect_points:
+        # Apply 2D rotation using yaw
+        x_rotated = x * math.cos(math.radians(yaw)) - y * math.sin(math.radians(yaw))
+        y_rotated = x * math.sin(math.radians(yaw)) + y * math.cos(math.radians(yaw))
 
-        # Rotate around Y-axis (roll)
-        x2 = x1 * math.cos(math.radians(roll)) + z1 * math.sin(math.radians(roll))
-        y2 = y1
-        z2 = -x1 * math.sin(math.radians(roll)) + z1 * math.cos(math.radians(roll))
-
-        # Rotate around Z-axis (yaw)
-        x3 = x2 * math.cos(math.radians(yaw)) - y2 * math.sin(math.radians(yaw))
-        y3 = x2 * math.sin(math.radians(yaw)) + y2 * math.cos(math.radians(yaw))
-        z3 = z2
-
-        # Project 3D points to 2D
-        screen_x = CENTER_X + int(x3)
-        screen_y = CENTER_Y - int(y3)
+        # Project to screen coordinates
+        screen_x = CENTER_X + int(x_rotated)
+        screen_y = CENTER_Y - int(y_rotated)
         rotated_points.append((screen_x, screen_y))
 
-    # Define edges of the cube
-    edges = [
-        (0, 1), (1, 2), (2, 3), (3, 0),  # Back face
-        (4, 5), (5, 6), (6, 7), (7, 4),  # Front face
-        (0, 4), (1, 5), (2, 6), (3, 7)   # Connections
-    ]
-
-    # Draw edges
-    for edge in edges:
-        pygame.draw.line(screen, (255, 255, 255), rotated_points[edge[0]], rotated_points[edge[1]], 2)
+    # Draw the rectangle by connecting its corners
+    pygame.draw.polygon(screen, color, rotated_points, 2)
 
 def read_data():
+    """
+    Reads and decodes IMU binary data from the serial port.
+    Updates global ax, ay, az variables with accelerometer data.
+    """
     global ax, ay, az
     try:
         ser.write(b".")  # Request data
-        line = ser.readline().strip()
-        angles = line.split(b", ")
-        if len(angles) == 3:
-            ax = float(angles[0])
-            ay = float(angles[1])
-            az = float(angles[2])
+        raw_data = ser.read(36)  # Adjust based on IMU output size
+        if len(raw_data) == 36:  # Ensure we received enough data
+            # Decode as 16-bit signed integers (little-endian)
+            decoded_values = struct.unpack('<18h', raw_data)
+            
+            # Extract accelerometer and gyroscope values
+            accel_x, accel_y, accel_z = decoded_values[0:3]  # First 3 are accelerometer
+            gyro_x, gyro_y, gyro_z = decoded_values[3:6]     # Next 3 are gyroscope
+            print(decoded_values)
+            
+            # Scale values
+            ax = accel_x * ACCEL_SCALE
+            ay = accel_y * ACCEL_SCALE
+            az = accel_z * ACCEL_SCALE
     except Exception as e:
         print(f"Error reading serial data: {e}")
 
@@ -83,7 +81,7 @@ def main():
     # Initialize Pygame
     pygame.init()
     screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
-    pygame.display.set_caption("3D Cube Visualization")
+    pygame.display.set_caption("IMU Visualization")
     clock = pygame.time.Clock()
 
     running = True
@@ -101,14 +99,14 @@ def main():
         # Clear screen
         screen.fill((0, 0, 0))
 
-        # Draw the cube
-        draw_cube(screen, ay, ax, az if yaw_mode else 0)
+        # Use accelerometer Y (pitch), X (roll), and Z (yaw if enabled) for rotation
+        draw_rectangle(screen, ay, ax, az if yaw_mode else 0)
 
         # Display text
         font = pygame.font.SysFont("Courier", 18, True)
-        osd_text = f"Pitch: {ay:.2f}, Roll: {ax:.2f}"
+        osd_text = f"Pitch: {ay:.2f}g, Roll: {ax:.2f}g"
         if yaw_mode:
-            osd_text += f", Yaw: {az:.2f}"
+            osd_text += f", Yaw: {az:.2f}g"
         text_surface = font.render(osd_text, True, (255, 255, 255))
         screen.blit(text_surface, (10, 10))
 

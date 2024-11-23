@@ -1,6 +1,6 @@
-const int PIN_CS = 4;
-const int PIN_CLOCK = 6;
-const int PIN_DATA = 7;
+const int PIN_CS = 4;     //blue
+const int PIN_CLOCK = 6;  //yello
+const int PIN_DATA = 7;   //green
 
 void setup() {
   Serial.begin(115200);
