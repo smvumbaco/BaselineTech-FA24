@@ -18,7 +18,7 @@ void setup()
     Serial.println(status);
     while (1) {}
   }
-  status = gyro.begin();
+  status = gyro.begin(); 
   if (status < 0) {
     Serial.println("Gyro Initialization Error");
     Serial.println(status);
