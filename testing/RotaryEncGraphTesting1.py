@@ -7,9 +7,13 @@ from collections import deque
 import threading
 import numpy as np  
 
+#Ava Gami rotary encoder BLT code
+#creates graph simulating the snowboarder's position on the snow 
+#for testing purposes separate of snowboarding simulator, align blue tick mark on encoder with tick in casing. first reading should be ~605 if aligned properly 
+
 # Set up the serial connection
 try:
-    ser = serial.Serial('/dev/tty.usbmodem14301', 115200, timeout=1)  # Update port as needed
+    ser = serial.Serial('/dev/tty.usbmodem14101', 115200, timeout=1)  # Update port as needed
     time.sleep(2)
 except serial.SerialException as e:
     print(f"Error: Could not open serial port. {e}")
@@ -30,6 +34,10 @@ pitch_factor = 1.0
 # Add a variable to track the last valid value
 last_valid_value = None
 
+set_origin = 0;
+origin = 0;
+pos = 0;
+
 # Function to calculate y-axis value
 def calculate_y_value(time_elapsed):
     return pitch_factor * time_elapsed
@@ -42,7 +50,7 @@ def moving_average(data, window_size=5):
 
 # Serial reading in a separate thread
 def read_serial():
-    global last_valid_value
+    global last_valid_value, set_origin, origin, pos 
     while running:
         try:
             data = ser.read(ser.in_waiting).decode('utf-8').strip()  # Read all available data
@@ -51,21 +59,26 @@ def read_serial():
                 for line in lines:
                     if line.isdigit():
                         raw_value = int(line)
-                        print(raw_value)
+                        print(raw_value-origin)
                         
-                        # If last_valid_value is None, initialize it
-                        if last_valid_value is None:
+                        if set_origin == 0:     #get original value, use as central point 
+                            origin = raw_value
+                            set_origin = 1      #origin only gets set once, at beginning of run
+                        
+                        if last_valid_value is None:        #init last valid value at begin of run 
                             last_valid_value = raw_value                        
 
-                        # Check for unexpected readings and ignore if bad
+                        #check for unexpected readings and ignore if bad (difference over 200 but below 900 to preserve 0 to 1024 continuity)
                         if abs(last_valid_value - raw_value) > 200 and abs(last_valid_value - raw_value) < 900:
                             raw_value = last_valid_value
+                        else:
+                            last_valid_value = raw_value        #if it was within expected range, update the last valid value  
+                            
+                        #adjust the scale factor as needed for sensitivity, likely after testing. 25-50 range seems optimal 
+                        pos = (pos) + (raw_value-origin)/25      #calculate pos based off previous position and deviation of encoder from 'origin' 
 
-                        # Update last valid value
-                        last_valid_value = raw_value
-
-                        # Append valid data
-                        x_data.append(raw_value)
+                        # Append valid data to be plotted 
+                        x_data.append(pos)
                         y_data.append(calculate_y_value(time.time() - start_time))
         except Exception as e:
             if running:
@@ -93,7 +106,7 @@ def update(frame):
         ax.set_title("Real-Time Snowboard Simulation")
         ax.set_xlabel("Left-Right Position (X-axis)")
         ax.set_ylabel("Speed based on Pitch (Y-axis)")
-        ax.set_xlim(0, 1050)  # Fixed x-axis range
+        ax.set_xlim(-100, 100)  # Fixed x-axis range
         ax.grid()
 
 # Function to safely close the serial port and stop the thread
