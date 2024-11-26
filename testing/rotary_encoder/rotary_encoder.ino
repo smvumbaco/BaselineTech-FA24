@@ -1,6 +1,11 @@
 const int PIN_CS = 4;     //blue
-const int PIN_CLOCK = 6;  //yello
+const int PIN_CLOCK = 6;  //yellow
 const int PIN_DATA = 7;   //green
+
+//pins may be switched around, using GPIOs without special uses currently 
+//#define PIN_CS 29
+//#define PIN_CLOCK 28
+//#define PIN_DATA 27
 
 void setup() {
   Serial.begin(115200);
@@ -12,26 +17,23 @@ void setup() {
   digitalWrite(PIN_CS, LOW);
 }
 
-
 //byte stream[16];
 void loop() {
 
-  digitalWrite(PIN_CS, HIGH);
+  digitalWrite(PIN_CS, HIGH);       //CS must be driven high once to get data
   digitalWrite(PIN_CS, LOW);
   int pos = 0;
   for (int i=0; i<10; i++) {
-    digitalWrite(PIN_CLOCK, LOW);
+    digitalWrite(PIN_CLOCK, LOW);   //get position data from bit corresponding to CLK signal 
     digitalWrite(PIN_CLOCK, HIGH);
    
-    pos= pos | digitalRead(PIN_DATA);
+    pos = pos | digitalRead(PIN_DATA);    //binary to int 
     if(i<9) pos = pos << 1;
   }
-  for (int i=0; i<6; i++) {
+  for (int i=0; i<=6; i++) {         //parity/status bits, ignore 
     digitalWrite(PIN_CLOCK, LOW);
     digitalWrite(PIN_CLOCK, HIGH);
   }
-  digitalWrite(PIN_CLOCK, LOW);
-  digitalWrite(PIN_CLOCK, HIGH);
   Serial.println(pos);
   delay(100);
 }

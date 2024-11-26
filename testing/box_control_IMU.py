@@ -5,7 +5,7 @@ import math
 import struct
 
 # Serial connection setup
-ser = serial.Serial('/dev/tty.usbmodem14101', 38400, timeout=1)  # Update port if necessary
+ser = serial.Serial('/dev/cu.SLAB_USBtoUART', 38400, timeout=1)  # Update port if necessary
 
 # Global variables for IMU data
 ax = ay = az = 0.0  # Accelerometer axes

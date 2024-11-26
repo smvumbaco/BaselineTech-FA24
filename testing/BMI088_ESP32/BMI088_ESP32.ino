@@ -26,8 +26,8 @@ const float ACCEL_SCALE = 1.5 / 32768.0; // Accelerometer scale for ±6g
 const float GYRO_SCALE = 250.0 / 32768.0; // Gyroscope scale for ±250 dps
 
 // I2C Pins for ESP32-S3
-#define SDA_PIN 21
-#define SCL_PIN 22
+#define SDA_PIN 21    //orange wire 
+#define SCL_PIN 22    //yellow wire 
 
 void setup() {
   Serial.begin(115200);
@@ -38,11 +38,11 @@ void setup() {
   Serial.println("Initializing BMI088 Accelerometer...");
 
   // Perform a soft reset
-  writeRegister(ACCEL_I2C_ADDR, 0x7E, 0xB6); // Soft reset
+  writeRegister(ACCEL_I2C_ADDR, 0x7E, 0xB6); 
   delay(100);
 
   // Set accelerometer to normal mode
-  writeRegister(ACCEL_I2C_ADDR, 0x7D, 0x04); // Enable accelerometer in normal mode
+  writeRegister(ACCEL_I2C_ADDR, 0x7D, 0x04); 
   delay(50);
 
   // Set accelerometer range to ±6g
@@ -74,7 +74,8 @@ void loop() {
   float gyroY_dps = gyroY * GYRO_SCALE;
   float gyroZ_dps = gyroZ * GYRO_SCALE;
 
-  // Print accelerometer results (milli-g's)
+  //print accelerometer results (milli-g's)
+  //an accelerometer gives acceleration data in each axis. Milli-G's are 0.001 * acceleration felt due to force of gravity (9.81 m/s^2)
   Serial.print(accelX_mg);
   Serial.print("\t");
   Serial.print(accelY_mg);
@@ -82,7 +83,8 @@ void loop() {
   Serial.print(accelZ_mg);
   Serial.print("\t");
 
-  // Print gryoscope results (degrees per second)
+  //print gryoscope results (degrees per second)
+  //gyroscope measures the rotational motion of the IMU object
   Serial.print(gyroX_dps);
   Serial.print("\t");
   Serial.print(gyroY_dps);
