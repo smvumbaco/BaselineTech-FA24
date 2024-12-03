@@ -7,17 +7,21 @@ from collections import deque
 import threading
 import numpy as np  
 
-#Ava Gami rotary encoder BLT code
+#Ava Gami rotary encoder BaselineTech code
 #creates graph simulating the snowboarder's position on the snow 
 #for testing purposes separate of snowboarding simulator, align blue tick mark on encoder with tick in casing. first reading should be ~605 if aligned properly 
 
 # Set up the serial connection
 try:
-    ser = serial.Serial('/dev/tty.usbmodem14101', 115200, timeout=1)  # Update port as needed
+    ser = serial.Serial('/dev/tty.usbmodem14101', 115200, timeout=1)  # update port as needed
     time.sleep(2)
 except serial.SerialException as e:
     print(f"Error: Could not open serial port. {e}")
     sys.exit(1)
+    
+    
+pitch_factor = 1.0          # USER: define the pitch factor based on snowboard pitch 
+
 
 # Shared data buffers
 x_data = deque(maxlen=500)
@@ -27,9 +31,6 @@ running = True  # Flag to control the serial thread
 
 # Add a thread lock
 data_lock = threading.Lock()
-
-# Define the pitch factor to simulate how pitch impacts speed
-pitch_factor = 1.0
 
 # Add a variable to track the last valid value
 last_valid_value = None

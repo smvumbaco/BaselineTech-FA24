@@ -1,5 +1,9 @@
 #include <Wire.h>
 
+//retrieves and caluclates values from accelerometer and gyroscope on IMU BMI088
+//no interrupts are utilized on IMU; not connected and not accessible via code
+//uses I2C 
+
 // I2C Addresses for BMI088
 #define ACCEL_I2C_ADDR 0x18 // Accelerometer I2C address
 #define GYRO_I2C_ADDR  0x68 // Gyroscope I2C address

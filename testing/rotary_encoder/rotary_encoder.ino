@@ -1,11 +1,12 @@
+//for Arduino testing:
 const int PIN_CS = 4;     //blue
 const int PIN_CLOCK = 6;  //yellow
-const int PIN_DATA = 7;   //green
+const int PIN_DATA = 7;   //green 
 
-//pins may be switched around, using GPIOs without special uses currently 
-//#define PIN_CS 29
-//#define PIN_CLOCK 28
-//#define PIN_DATA 27
+//for ESP32: 
+//#define PIN_CS 29       //blue
+//#define PIN_CLOCK 28    //yellow
+//#define PIN_DATA 27     //green 
 
 void setup() {
   Serial.begin(115200);
