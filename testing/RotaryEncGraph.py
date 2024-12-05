@@ -13,7 +13,7 @@ import numpy as np
 
 # Set up the serial connection
 try:
-    ser = serial.Serial('/dev/tty.usbmodem14101', 115200, timeout=1)  # update port as needed
+    ser = serial.Serial('/dev/tty.usbmodem14301', 115200, timeout=1)  # update port as needed
     time.sleep(2)
 except serial.SerialException as e:
     print(f"Error: Could not open serial port. {e}")
